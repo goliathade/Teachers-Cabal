@@ -1,0 +1,803 @@
+.schooldashboardoverview-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.schooldashboardoverview-schooldashboardoverview {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.schooldashboardoverview-depth0-frame0 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardoverview-depth1-frame0 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth2-frame0 {
+  gap: 4px;
+  display: flex;
+  padding: 20px 24px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+}
+.schooldashboardoverview-depth3-frame01 {
+  width: 320px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth3-frame02 {
+  width: 320px;
+  height: 762px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth5-frame01 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.schooldashboardoverview-depth6-frame010 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_gafq9zhkfe-39i5-200w.png");
+}
+.schooldashboardoverview-depth6-frame11 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardoverview-depth7-frame01 {
+  width: 256px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-text10 {
+  color: rgba(12, 20, 28, 1);
+  width: 220px;
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth7-frame11 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth4-frame01 {
+  gap: 390px;
+  height: 600px;
+  display: flex;
+  padding: 16px 16px 1px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(247, 249, 249, 1);
+}
+.schooldashboardoverview-depth5-frame02 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame011 {
+  gap: 8px;
+  height: 172px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth7-frame12 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(232, 237, 242, 1);
+}
+.schooldashboardoverview-depth8-frame01 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text13 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth7-frame2 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth8-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text14 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth7-frame4 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth8-frame03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text15 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth7-frame5 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth8-frame04 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text16 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth7-frame3 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth8-frame05 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text17 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth5-frame11 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(25, 91, 229, 1);
+}
+.schooldashboardoverview-depth6-frame012 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.schooldashboardoverview-text18 {
+  color: rgba(247, 249, 252, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame013 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth7-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth8-frame06 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.schooldashboardoverview-depth7-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text19 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth3-frame1 {
+  width: 960px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth4-frame02 {
+  gap: 12px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.schooldashboardoverview-depth5-frame03 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame014 {
+  width: 542px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-text20 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame12 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text21 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth4-frame1 {
+  height: 60px;
+  display: flex;
+  padding: 20px 16px 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-text22 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth4-frame2 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth5-frame04 {
+  gap: 8px;
+  width: 220px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 214, 232, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame015 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text23 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame13 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text24 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth5-frame12 {
+  gap: 8px;
+  width: 220px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 214, 232, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame016 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text25 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame14 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text26 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth5-frame2 {
+  gap: 8px;
+  width: 220px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 214, 232, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame017 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text27 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame15 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text28 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth5-frame3 {
+  gap: 8px;
+  width: 220px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 214, 232, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame018 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text29 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame16 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text30 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth4-frame3 {
+  gap: 16px;
+  display: flex;
+  padding: 24px 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.schooldashboardoverview-depth5-frame05 {
+  gap: 8px;
+  width: 928px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth6-frame019 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text31 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth6-frame17 {
+  gap: 32px;
+  display: flex;
+  padding: 16px 0;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-depth7-frame03 {
+  width: 928px;
+  height: 148px;
+  align-self: stretch;
+}
+.schooldashboardoverview-depth7-frame14 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.schooldashboardoverview-depth8-frame07 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text32 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text33 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text34 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text35 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text36 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text37 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardoverview-depth8-frame6 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardoverview-text38 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}

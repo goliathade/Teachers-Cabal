@@ -1,0 +1,1577 @@
+.school-dashboard-job-listing-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-school-dashboard-job-listing {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.school-dashboard-job-listing-depth0-frame0 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(247, 249, 249, 1);
+}
+.school-dashboard-job-listing-depth1-frame0 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth2-frame0 {
+  gap: 4px;
+  display: flex;
+  padding: 20px 24px 20px 0;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth3-frame0 {
+  width: 320px;
+  height: 797px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth5-frame01 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.school-dashboard-job-listing-depth6-frame01 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_eenggl1fio-71p3-200w.png");
+}
+.school-dashboard-job-listing-depth6-frame11 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth7-frame010 {
+  width: 256px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text10 {
+  color: rgba(12, 20, 28, 1);
+  width: 220px;
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame11 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth4-frame01 {
+  height: 700px;
+  display: flex;
+  padding: 16px 16px 1px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 249, 1);
+}
+.school-dashboard-job-listing-depth5-frame02 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth6-frame02 {
+  gap: 8px;
+  height: 172px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth7-frame011 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.school-dashboard-job-listing-depth8-frame01 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text13 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame12 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth8-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text14 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame2 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.school-dashboard-job-listing-depth8-frame03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text15 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame3 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.school-dashboard-job-listing-depth8-frame04 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text16 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame03 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.school-dashboard-job-listing-depth7-frame012 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth8-frame05 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.school-dashboard-job-listing-depth7-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text17 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth3-frame1 {
+  width: 960px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth4-frame02 {
+  gap: 12px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.school-dashboard-job-listing-depth5-frame03 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth6-frame04 {
+  width: 402px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text18 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame12 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text19 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth4-frame1 {
+  display: flex;
+  padding: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth5-frame04 {
+  gap: 16px;
+  display: flex;
+  padding: 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(209, 221, 229, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 249, 1);
+}
+.school-dashboard-job-listing-depth6-frame05 {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth7-frame013 {
+  width: 613px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text20 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame14 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text21 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame13 {
+  height: 32px;
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(28, 140, 214, 1);
+}
+.school-dashboard-job-listing-depth7-frame014 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text22 {
+  color: rgba(247, 249, 249, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth4-frame2 {
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth5-frame05 {
+  height: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth6-frame06 {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 12px;
+}
+.school-dashboard-job-listing-depth7-frame015 {
+  display: flex;
+  padding: 0 0 0 16px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth8-frame06 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.school-dashboard-job-listing-depth7-frame15 {
+  display: flex;
+  padding: 8px 16px 8px 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 0 12px 12px 0;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-text23 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth4-frame3 {
+  display: flex;
+  padding: 0 0 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth5-frame06 {
+  gap: 32px;
+  display: flex;
+  padding: 0 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 221, 229, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.school-dashboard-job-listing-depth6-frame07 {
+  display: flex;
+  padding: 16px 0 13px;
+  align-items: center;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth7-frame016 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text24 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame14 {
+  display: flex;
+  padding: 16px 0 13px;
+  align-items: center;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth7-frame017 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text25 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame2 {
+  display: flex;
+  padding: 16px 0 13px;
+  align-items: center;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth7-frame018 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text26 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth6-frame3 {
+  display: flex;
+  padding: 16px 0 13px;
+  align-items: center;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth7-frame019 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text27 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth4-frame4 {
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth5-frame07 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(209, 221, 229, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(247, 249, 249, 1);
+}
+.school-dashboard-job-listing-depth6-frame08 {
+  width: 926px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth7-frame020 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth8-frame07 {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  background-color: rgba(247, 249, 249, 1);
+}
+.school-dashboard-job-listing-depth9-frame01 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth9-frame11 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text28 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame21 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text29 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame31 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text30 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame41 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text31 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame51 {
+  height: 46px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text32 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth7-frame16 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-depth8-frame08 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.school-dashboard-job-listing-depth9-frame02 {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame010 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("/external/tq_p9rxc7iocf-qza-200h.png");
+}
+.school-dashboard-job-listing-depth9-frame12 {
+  width: 158px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text33 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame22 {
+  width: 163px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text34 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame32 {
+  width: 173px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text35 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame42 {
+  width: 144px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame011 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth11-frame01 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text36 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame52 {
+  width: 164px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text37 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth8-frame1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.school-dashboard-job-listing-depth9-frame03 {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame012 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("/external/tq_lyfrg7wque-bnq-200h.png");
+}
+.school-dashboard-job-listing-depth9-frame13 {
+  width: 158px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text38 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame23 {
+  width: 163px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text39 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame33 {
+  width: 173px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text40 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame43 {
+  width: 144px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame013 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth11-frame02 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text41 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame53 {
+  width: 164px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text42 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth8-frame2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.school-dashboard-job-listing-depth9-frame04 {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame014 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("/external/tq_yqsulnmsvk-qr8-200h.png");
+}
+.school-dashboard-job-listing-depth9-frame14 {
+  width: 158px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text43 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame24 {
+  width: 163px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text44 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame34 {
+  width: 173px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text45 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame44 {
+  width: 144px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame015 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth11-frame03 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text46 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame54 {
+  width: 164px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text47 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth8-frame3 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.school-dashboard-job-listing-depth9-frame05 {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame016 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("/external/tq_ucuuq9knol-x46c-200h.png");
+}
+.school-dashboard-job-listing-depth9-frame15 {
+  width: 158px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text48 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame25 {
+  width: 163px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text49 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame35 {
+  width: 173px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text50 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame45 {
+  width: 144px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame017 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth11-frame04 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text51 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame55 {
+  width: 164px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text52 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth8-frame4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.school-dashboard-job-listing-depth9-frame06 {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame018 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("/external/tq_-nhyrioz3c-kadn-200h.png");
+}
+.school-dashboard-job-listing-depth9-frame16 {
+  width: 158px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text53 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame26 {
+  width: 163px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text54 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame36 {
+  width: 173px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text55 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame46 {
+  width: 144px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-depth10-frame019 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 237, 242, 1);
+}
+.school-dashboard-job-listing-depth11-frame05 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.school-dashboard-job-listing-text56 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.school-dashboard-job-listing-depth9-frame56 {
+  width: 164px;
+  height: 72px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-dashboard-job-listing-text57 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}

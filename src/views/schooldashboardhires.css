@@ -1,0 +1,717 @@
+.schooldashboardhires-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.schooldashboardhires-schooldashboardhires {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.schooldashboardhires-depth0-frame0 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardhires-depth1-frame0 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-depth2-frame0 {
+  gap: 4px;
+  display: flex;
+  padding: 20px 24px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+}
+.schooldashboardhires-depth3-frame2 {
+  width: 320px;
+  height: 784px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-depth3-frame0 {
+  width: 320px;
+  height: 760px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-depth5-frame01 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.schooldashboardhires-depth6-frame010 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_6zq4y7qxzz-jgi-200w.png");
+}
+.schooldashboardhires-depth6-frame11 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardhires-depth7-frame01 {
+  width: 256px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text10 {
+  color: rgba(12, 20, 28, 1);
+  width: 220px;
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth7-frame11 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-depth4-frame01 {
+  gap: 380px;
+  height: 600px;
+  display: flex;
+  padding: 16px 16px 1px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(247, 249, 249, 1);
+}
+.schooldashboardhires-depth5-frame02 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-depth6-frame011 {
+  gap: 8px;
+  height: 172px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-depth7-frame2 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardhires-depth8-frame01 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text13 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth7-frame4 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardhires-depth8-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text14 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth7-frame5 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardhires-depth8-frame03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text15 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth7-frame12 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(232, 237, 242, 1);
+}
+.schooldashboardhires-depth8-frame04 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text16 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth7-frame3 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardhires-depth8-frame05 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text17 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth5-frame11 {
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(25, 91, 229, 1);
+}
+.schooldashboardhires-depth6-frame012 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.schooldashboardhires-text18 {
+  color: rgba(247, 249, 252, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth6-frame013 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.schooldashboardhires-depth7-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-depth8-frame06 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.schooldashboardhires-depth7-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text19 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth3-frame1 {
+  width: 960px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-depth4-frame02 {
+  gap: 12px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.schooldashboardhires-depth5-frame03 {
+  width: 288px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text20 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 36px;
+  align-self: stretch;
+  font-style: Black;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 900;
+  line-height: 45px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth5-frame12 {
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(232, 234, 242, 1);
+}
+.schooldashboardhires-depth6-frame014 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.schooldashboardhires-text21 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 700;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth4-frame1 {
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-depth5-frame04 {
+  height: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-depth6-frame015 {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 12px;
+}
+.schooldashboardhires-depth7-frame03 {
+  display: flex;
+  padding: 0 0 0 16px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  justify-content: center;
+  background-color: rgba(232, 234, 242, 1);
+}
+.schooldashboardhires-depth8-frame07 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.schooldashboardhires-depth7-frame14 {
+  display: flex;
+  padding: 8px 16px 8px 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 0 12px 12px 0;
+  background-color: rgba(232, 234, 242, 1);
+}
+.schooldashboardhires-text22 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth4-frame2 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardhires-depth5-frame05 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_kmwnyxtzay-srmin-200h.png");
+}
+.schooldashboardhires-depth5-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardhires-depth6-frame016 {
+  width: 251px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text23 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth6-frame12 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text24 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth4-frame3 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardhires-depth5-frame06 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_bz9grvlo7o-gtvo-200h.png");
+}
+.schooldashboardhires-depth5-frame14 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardhires-depth6-frame017 {
+  width: 202px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text25 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth6-frame13 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text26 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth4-frame4 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardhires-depth5-frame07 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_zxoa1rzaw1-sr6w-200h.png");
+}
+.schooldashboardhires-depth5-frame15 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardhires-depth6-frame018 {
+  width: 230px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text27 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth6-frame14 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text28 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth4-frame5 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 252, 1);
+}
+.schooldashboardhires-depth5-frame08 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_qmdt-_hwrz-4n9h-200h.png");
+}
+.schooldashboardhires-depth5-frame16 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schooldashboardhires-depth6-frame019 {
+  width: 224px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.schooldashboardhires-text29 {
+  color: rgba(12, 17, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schooldashboardhires-depth6-frame15 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schooldashboardhires-text30 {
+  color: rgba(79, 102, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}

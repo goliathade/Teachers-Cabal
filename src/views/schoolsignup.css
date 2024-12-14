@@ -1,0 +1,324 @@
+.schoolsignup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.schoolsignup-schoolsignup {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 251, 1);
+}
+.schoolsignup-rectangle1 {
+  top: 114px;
+  left: 350px;
+  width: 740px;
+  height: 886px;
+  position: absolute;
+  box-sizing: content-box;
+  border-radius: 30px;
+}
+.schoolsignup-inputlabels {
+  top: 284px;
+  left: 442px;
+  width: 279px;
+  height: 367px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.schoolsignup-text10 {
+  top: 346px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text11 {
+  top: 260px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text12 {
+  top: 174px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text13 {
+  top: 88px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text14 {
+  color: rgba(0, 0, 0, 0.5);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-signupbtn {
+  top: 717px;
+  left: 423px;
+  width: 595px;
+  height: 79px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(2, 117, 177, 1);
+}
+.schoolsignup-text15 {
+  top: 25px;
+  left: 241px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-inputboxes {
+  top: 267px;
+  left: 423px;
+  width: 598px;
+  height: 410px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.schoolsignup-rectangle4 {
+  top: 350.4718322753906px;
+  left: 0px;
+  width: 597px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.schoolsignup-rectangle3 {
+  top: 175.65493774414062px;
+  left: 1.0033559799194336px;
+  width: 597px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.schoolsignup-rectangle6 {
+  top: 88px;
+  left: 1px;
+  width: 597px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.schoolsignup-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 597px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.schoolsignup-rectangle2 {
+  top: 263.0633850097656px;
+  left: 0px;
+  width: 597px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.schoolsignup-vector0 {
+  top: 110px;
+  left: 556px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schoolsignup-sign-upmain {
+  top: 129px;
+  left: 604px;
+  width: 232px;
+  height: 106px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.schoolsignup-text16 {
+  top: 77px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text17 {
+  left: 25px;
+  color: rgba(2, 117, 177, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-teachers-cabal-logog1 {
+  top: 0px;
+  left: 620px;
+  width: 199px;
+  height: 100px;
+  position: absolute;
+}
+.schoolsignup-footer {
+  top: 822px;
+  left: 423px;
+  width: 597px;
+  height: 113px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.schoolsignup-text18 {
+  top: 86px;
+  left: 134px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-text19 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+.schoolsignup-text21 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.schoolsignup-line1 {
+  top: 27px;
+  left: 298px;
+  width: 120px;
+  height: 1px;
+  position: absolute;
+}
+.schoolsignup-line4 {
+  top: 113px;
+  left: 382px;
+  width: 60px;
+  height: 1px;
+  position: absolute;
+}
+.schoolsignup-line2 {
+  top: 27px;
+  left: 468px;
+  width: 124px;
+  height: 1px;
+  position: absolute;
+}
+.schoolsignup-line3 {
+  top: 63px;
+  left: 6px;
+  width: 591px;
+  height: 1px;
+  position: absolute;
+}

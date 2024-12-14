@@ -1,0 +1,1100 @@
+.teacher-profile-offers-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.teacher-profile-offers-teacher-profile-offers {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.teacher-profile-offers-depth0-frame0 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth1-frame0 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth2-frame0 {
+  gap: 4px;
+  display: flex;
+  padding: 20px 24px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+}
+.teacher-profile-offers-depth3-frame2 {
+  width: 320px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-frames {
+  height: 760px;
+  display: flex;
+  padding: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 249, 1);
+}
+.teacher-profile-offers-framelevel2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-rectangle {
+  width: 42px;
+  height: 42px;
+  border-radius: 26px;
+}
+.teacher-profile-offers-depth6-frame010 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth7-frame010 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text10 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame110 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text11 {
+  color: rgba(79, 122, 147, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth6-frame11 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth7-frame011 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth8-frame01 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text12 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame111 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth8-frame02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text13 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame7 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth8-frame03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text14 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame6 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(232, 237, 242, 1);
+}
+.teacher-profile-offers-depth8-frame04 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text15 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame4 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth8-frame05 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text16 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame5 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth8-frame06 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text17 {
+  color: rgba(12, 22, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth6-frame011 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-profile-offers-depth7-frame012 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth8-frame07 {
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.teacher-profile-offers-depth7-frame112 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text18 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth3-frame3 {
+  width: 960px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth4-frame0 {
+  gap: 12px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.teacher-profile-offers-depth5-frame01 {
+  width: 288px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text19 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth4-frame1 {
+  display: flex;
+  padding: 16px 16px 8px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text20 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 23px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth4-frame2 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame02 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame012 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_8mypz7-arz-ejki-200h.png");
+}
+.teacher-profile-offers-depth6-frame12 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame013 {
+  width: 256px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text21 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame113 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text22 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame11 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame013 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame014 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame3 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame03 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame014 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_me4n28pqqu-s7mn-200h.png");
+}
+.teacher-profile-offers-depth6-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame015 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text23 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame114 {
+  width: 283px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text24 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame12 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame015 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame016 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame4 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame04 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame016 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_i6mgyscjqa-p5t-200h.png");
+}
+.teacher-profile-offers-depth6-frame14 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame017 {
+  width: 269px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text25 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame115 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text26 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame017 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame018 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame5 {
+  display: flex;
+  padding: 16px 16px 8px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text27 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 23px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth4-frame6 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame05 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame018 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_52dpmmfacf-45ge-200h.png");
+}
+.teacher-profile-offers-depth6-frame15 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame019 {
+  width: 256px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text28 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame116 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text29 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame14 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame019 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame020 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame7 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame06 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame020 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_vjq5pdddhj-1lz-200h.png");
+}
+.teacher-profile-offers-depth6-frame16 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame021 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text30 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame117 {
+  width: 283px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text31 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame15 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame021 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame022 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame8 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame07 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame022 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_acgv3k5wgm-xmr5-200h.png");
+}
+.teacher-profile-offers-depth6-frame17 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame023 {
+  width: 269px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text32 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame118 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text33 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame16 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame023 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame024 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame10 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame08 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame024 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_4c1ystjpv--57q-200h.png");
+}
+.teacher-profile-offers-depth6-frame18 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame025 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text34 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame119 {
+  width: 283px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text35 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame17 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame025 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame026 {
+  width: 24px;
+  height: 24px;
+}
+.teacher-profile-offers-depth4-frame9 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(247, 249, 252, 1);
+}
+.teacher-profile-offers-depth5-frame09 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.teacher-profile-offers-depth6-frame026 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-size: cover;
+  background-image: url("/external/tq_z_4zrbdguq-0ikl-200h.png");
+}
+.teacher-profile-offers-depth6-frame19 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame027 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-text36 {
+  color: rgba(12, 20, 28, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth7-frame120 {
+  width: 283px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.teacher-profile-offers-text37 {
+  color: rgba(79, 114, 150, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.teacher-profile-offers-depth5-frame18 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teacher-profile-offers-depth6-frame027 {
+  height: 28px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.teacher-profile-offers-depth7-frame028 {
+  width: 24px;
+  height: 24px;
+}

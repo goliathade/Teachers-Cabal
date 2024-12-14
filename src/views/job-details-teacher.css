@@ -1,0 +1,2200 @@
+.job-details-teacher-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.job-details-teacher-job-details-teacher {
+  width: 100%;
+  height: 1422px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(247, 249, 251, 1);
+}
+.job-details-teacher-footer {
+  top: 1207px;
+  left: 0px;
+  width: 1440px;
+  height: 215px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.job-details-teacher-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 215px;
+  position: absolute;
+}
+.job-details-teacher-sep {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(241, 244, 248, 0.800000011920929) 0%, rgba(241, 244, 248, 0) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-line10 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-navigation1 {
+  top: 35px;
+  left: 260px;
+  width: 485px;
+  height: 127px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text10 {
+  top: 41px;
+  color: rgba(24, 24, 24, 1);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text18 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text19 {
+  top: 41px;
+  left: 170px;
+  color: rgba(24, 24, 24, 1);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text27 {
+  top: 41px;
+  left: 350px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-fastaccess {
+  top: 35px;
+  left: 810px;
+  width: 170px;
+  height: 108px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text33 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame10 {
+  top: 34px;
+  left: 0px;
+  width: 170px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(2, 117, 177, 1);
+}
+.job-details-teacher-text34 {
+  top: 11px;
+  left: 15px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-helpcircle {
+  top: 8px;
+  left: 139px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.job-details-teacher-frame11 {
+  top: 76px;
+  left: 0px;
+  width: 170px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text35 {
+  top: 11px;
+  left: 15px;
+  color: rgba(2, 117, 177, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-settings {
+  top: 8.15185546875px;
+  left: 138.57861328125px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.job-details-teacher-language {
+  top: 35px;
+  left: 1040px;
+  width: 270px;
+  height: 66px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text36 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame12 {
+  top: 34px;
+  left: 0px;
+  width: 270px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-chevrondown {
+  top: 9px;
+  left: 241px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.job-details-teacher-text37 {
+  top: 11px;
+  left: 15px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-sidebar {
+  top: 120px;
+  left: 1020px;
+  width: 290px;
+  height: 970px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-mysearches {
+  top: 95px;
+  left: 0px;
+  width: 290px;
+  height: 290px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(252, 253, 253, 1);
+}
+.job-details-teacher-group10 {
+  top: 76px;
+  left: 30px;
+  width: 230px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(232, 240, 247, 1);
+}
+.job-details-teacher-belloff {
+  top: 19px;
+  left: 194px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.30;
+  position: absolute;
+}
+.job-details-teacher-text38 {
+  top: 9px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text39 {
+  top: 9px;
+  left: 111px;
+  color: rgba(1, 176, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text40 {
+  top: 29px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group11 {
+  top: 140px;
+  left: 30px;
+  width: 230px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(232, 240, 247, 1);
+}
+.job-details-teacher-bell1 {
+  top: 19px;
+  left: 194px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.job-details-teacher-text41 {
+  top: 9px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text42 {
+  top: 29px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group12 {
+  top: 204px;
+  left: 30px;
+  width: 230px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(232, 240, 247, 1);
+}
+.job-details-teacher-bell2 {
+  top: 19px;
+  left: 194px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.job-details-teacher-text43 {
+  top: 9px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text44 {
+  top: 29px;
+  left: 12px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-line11 {
+  top: 56px;
+  left: 30px;
+  width: 230px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-text45 {
+  top: 25px;
+  left: 30px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text46 {
+  top: 25px;
+  left: 209px;
+  color: rgba(2, 117, 177, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-trackedjobs {
+  top: 405px;
+  left: 0px;
+  width: 290px;
+  height: 245px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(252, 253, 253, 1);
+}
+.job-details-teacher-group13 {
+  top: 76px;
+  left: 30px;
+  width: 231px;
+  height: 65px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-rectangle221 {
+  top: 17px;
+  left: 15px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text47 {
+  top: 15px;
+  left: 57px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text48 {
+  top: 35px;
+  left: 57px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group14 {
+  top: 151px;
+  left: 30px;
+  width: 231px;
+  height: 65px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-rectangle222 {
+  top: 17px;
+  left: 15px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text49 {
+  top: 15px;
+  left: 57px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text50 {
+  top: 35px;
+  left: 57px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-line12 {
+  top: 56px;
+  left: 30px;
+  width: 230px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-text51 {
+  top: 25px;
+  left: 30px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-articles {
+  top: 670px;
+  left: 0px;
+  width: 290px;
+  height: 300px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(252, 253, 253, 1);
+}
+.job-details-teacher-group15 {
+  top: 76px;
+  left: 30px;
+  width: 230px;
+  height: 198px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group2 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text52 {
+  left: 95px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 700;
+  line-height: 125%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text57 {
+  top: 41px;
+  left: 95px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group16 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-photo1 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  position: absolute;
+  border-radius: 2px;
+}
+.job-details-teacher-group22 {
+  top: 142px;
+  left: 0px;
+  width: 230px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text58 {
+  left: 95px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 700;
+  line-height: 125%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text62 {
+  top: 41px;
+  left: 95px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group17 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-photo2 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  position: absolute;
+  border-radius: 2px;
+}
+.job-details-teacher-group21 {
+  top: 71px;
+  left: 0px;
+  width: 229px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text63 {
+  top: 41px;
+  left: 95px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-group18 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-photo3 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 52px;
+  position: absolute;
+  border-radius: 2px;
+}
+.job-details-teacher-line13 {
+  top: 56px;
+  left: 30px;
+  width: 230px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-text64 {
+  top: 25px;
+  left: 30px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-postajob {
+  top: 0px;
+  left: 0px;
+  width: 290px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame13 {
+  top: 20px;
+  left: 30px;
+  width: 230px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text65 {
+  top: 11px;
+  left: 81px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-content {
+  top: 120px;
+  left: 130px;
+  width: 850px;
+  height: 1047px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-searchfield {
+  top: 0px;
+  left: 0px;
+  width: 850px;
+  height: 135px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-sliders {
+  top: 81px;
+  left: 734px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.15;
+  position: absolute;
+}
+.job-details-teacher-frame14 {
+  top: 77px;
+  left: 788px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-search1 {
+  top: 8px;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.job-details-teacher-text66 {
+  top: 85px;
+  left: 30px;
+  color: rgba(24, 24, 24, 0.20000000298023224);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-line14 {
+  top: 56px;
+  left: 30px;
+  width: 790px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-text67 {
+  top: 25px;
+  left: 30px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-jobsforyou {
+  top: 175px;
+  left: 0px;
+  width: 850px;
+  height: 541px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-filter1 {
+  top: 0px;
+  left: 0px;
+  width: 850px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-line15 {
+  top: 5px;
+  left: 0px;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-line16 {
+  top: 5px;
+  left: 518px;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-sort1 {
+  top: 0px;
+  left: 381px;
+  width: 86px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text68 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame15 {
+  top: 51px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame16 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text69 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame17 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group19 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle223 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text70 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text71 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text72 {
+  top: 46px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  width: 405px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame18 {
+  top: 301px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame19 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text73 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame20 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group20 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle224 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text74 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text75 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text76 {
+  top: 23px;
+  left: 116px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text77 {
+  top: 46px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  width: 405px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame21 {
+  top: 426px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame22 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text78 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame23 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group23 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle225 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text79 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text80 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text81 {
+  top: 23px;
+  left: 123px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text82 {
+  top: 46px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  width: 405px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame24 {
+  top: 176px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame25 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text83 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame26 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group24 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle226 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text84 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text85 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text86 {
+  top: 23px;
+  left: 129px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-newjobs {
+  top: 756px;
+  left: 0px;
+  width: 850px;
+  height: 291px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-filter2 {
+  top: 0px;
+  left: 0px;
+  width: 850px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-line17 {
+  top: 5px;
+  left: 0px;
+  width: 350px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-line18 {
+  top: 5px;
+  left: 500px;
+  width: 350px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-sort2 {
+  top: 0px;
+  left: 393px;
+  width: 62px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text87 {
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame27 {
+  top: 51px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame28 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text88 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame29 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group25 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle227 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text89 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text90 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text91 {
+  top: 23px;
+  left: 130px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text92 {
+  top: 46px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  width: 405px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame30 {
+  top: 176px;
+  left: 0px;
+  width: 850px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-frame31 {
+  top: 42px;
+  left: 729px;
+  width: 91px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 119, 181, 1) 0%, rgba(14, 102, 148, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text93 {
+  top: 11px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame32 {
+  top: 20px;
+  left: 30px;
+  width: 475px;
+  height: 76px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-group26 {
+  top: 2px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-rectangle228 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 27px;
+}
+.job-details-teacher-text94 {
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text95 {
+  top: 23px;
+  left: 70px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text96 {
+  top: 23px;
+  left: 129px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-navigation2 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.job-details-teacher-base {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 80px;
+  position: absolute;
+  border-radius: 4px;
+}
+.job-details-teacher-profile {
+  top: 0px;
+  left: 980px;
+  width: 330px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-rectangle3 {
+  top: 18px;
+  left: 30px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-radius: 26px;
+}
+.job-details-teacher-text97 {
+  top: 24px;
+  left: 87px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text98 {
+  top: 24px;
+  left: 176px;
+  color: rgba(24, 24, 24, 0.20000000298023224);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text99 {
+  top: 46px;
+  left: 87px;
+  color: rgba(115, 115, 115, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-text100 {
+  top: 46px;
+  left: 188px;
+  color: rgba(1, 176, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-arrowupright {
+  top: 45px;
+  left: 213px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+.job-details-teacher-line19 {
+  top: 0px;
+  left: 0.000003814697265625px;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-other {
+  top: 0px;
+  left: 1310px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-morehorizontal {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text101 {
+  top: 52px;
+  left: 26px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-line20 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-line21 {
+  top: 0px;
+  left: 90px;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-search2 {
+  top: 0px;
+  left: 613px;
+  width: 367px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-text102 {
+  top: 33px;
+  left: 74px;
+  color: rgba(206, 206, 206, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Gotham Pro;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-search3 {
+  top: 28px;
+  left: 30px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-line22 {
+  top: 0px;
+  left: 0.0000034969084481417667px;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-line23 {
+  top: 0px;
+  left: 367px;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+}
+.job-details-teacher-items {
+  top: 0px;
+  left: 143px;
+  width: 450px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-frame33 {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-framedisable1 {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-rss {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text103 {
+  top: 52px;
+  left: 31px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame34 {
+  top: 0px;
+  left: 90px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-framedisable2 {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-users {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text104 {
+  top: 52px;
+  left: 16px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame35 {
+  top: 0px;
+  left: 180px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-frameactive {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-rectangle2 {
+  top: 78px;
+  left: 12px;
+  width: 66px;
+  height: 2px;
+  position: absolute;
+}
+.job-details-teacher-briefcase {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text105 {
+  top: 52px;
+  left: 30px;
+  color: rgba(2, 117, 177, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-frame36 {
+  top: 0px;
+  left: 270px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-framedisable3 {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-messagesquare {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text106 {
+  top: 52px;
+  left: 29px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.job-details-teacher-count {
+  top: 13px;
+  left: 47px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(208deg, rgba(255, 183, 94, 1) 0%, rgba(237, 143, 3, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-frame37 {
+  top: 0px;
+  left: 360px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.job-details-teacher-framedisable4 {
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.job-details-teacher-bell3 {
+  top: 18px;
+  left: 33px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.job-details-teacher-text107 {
+  top: 52px;
+  left: 20px;
+  color: rgba(24, 24, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
