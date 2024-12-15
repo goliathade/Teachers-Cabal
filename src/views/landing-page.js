@@ -16,20 +16,21 @@ const LandingPage = (props) => {
             <div className="landing-page-depth2-frame0">
               <img
                 alt="TeachersCabalLogog19019"
-                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                style={{ width: '100px', height: 'auto' }}
+                src="external/teacherscaballogog13414-vdvl-200h.png"
                 className="landing-page-teachers-cabal-logog1"
               />
               <div className="landing-page-depth3-frame1">
                 <div className="landing-page-depth4-frame01">
-                  <div className="landing-page-depth5-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
                     <span className="landing-page-text10">Find a Job</span>
-                  </div>
-                  <div className="landing-page-depth5-frame11">
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
                     <span className="landing-page-text11">Post a Job</span>
-                  </div>
-                  <div className="landing-page-depth5-frame2">
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
-                  </div>
+                  </a>
                   <div className="landing-page-depth5-frame3">
                     <span className="landing-page-text13">Community</span>
                   </div>
@@ -52,16 +53,14 @@ const LandingPage = (props) => {
               <div className="landing-page-depth3-frame0">
                 <div className="landing-page-depth4-frame02">
                   <div className="landing-page-landing">
-                    <img
-                      alt="school39018"
-                      src="https://play.teleporthq.io/static/svg/default-img.svg"
-                      className="landing-page-school3"
-                    />
-                    <img
-                      alt="Rectangle109018"
-                      src="https://play.teleporthq.io/static/svg/default-img.svg"
-                      className="landing-page-rectangle10"
-                    />
+                    <div className='landing-page-img'>
+                      <img
+                        alt="school39018"
+                        src="/external/school.jpg"
+                        className="landing-page-school3"
+                        style={{ }}
+                      />
+                    </div>
                     <span className="landing-page-text16">
                       Find your next teaching Job
                     </span>
@@ -267,7 +266,7 @@ const LandingPage = (props) => {
                           </span>
                           <br></br>
                           <br></br>
-                          <span>
+                          <span className='landing-page-text23'>
                             Join Teachers Cabal today and get matched with top
                             schools and school districts in your area.
                           </span>

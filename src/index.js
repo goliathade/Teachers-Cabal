@@ -36,67 +36,27 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route
-          component={TeachersDashboardschools}
-          exact
-          path="/teachers-dashboardschools"
-        />
+        <Route component={LandingPage} exact path="/" />
+        <Route component={TeachersDashboardschools} exact path="/teachers-dashboardschools" />
         <Route component={HelpTeachers} exact path="/help-teachers" />
-        <Route
-          component={SchooldashboardApplicants}
-          exact
-          path="/schooldashboard-applicants"
-        />
-        <Route
-          component={TeacherProfileInterviews}
-          exact
-          path="/teacher-profile-interviews"
-        />
+        <Route component={SchooldashboardApplicants} exact path="/schooldashboard-applicants" />
+        <Route component={TeacherProfileInterviews} exact path="/teacher-profile-interviews" />
         <Route component={ForgotPassword} exact path="/forgot-password" />
-        <Route
-          component={TeacherProfileOffers}
-          exact
-          path="/teacher-profile-offers"
-        />
+        <Route component={TeacherProfileOffers} exact path="/teacher-profile-offers" />
         <Route component={Resuorcespage} exact path="/resuorcespage" />
-        <Route
-          component={SchoolDashboardJobListing}
-          exact
-          path="/school-dashboard-job-listing"
-        />
+        <Route component={SchoolDashboardJobListing} exact path="/school-dashboard-job-listing" />
         <Route component={RecoveryPassword} exact path="/recovery-password" />
         <Route component={Schoolsignup} exact path="/schoolsignup" />
-        <Route component={TeacherSignup} exact path="/" />
+        <Route component={TeacherSignup} exact path="/teacher-signup" />
         <Route component={JobPostingSchool} exact path="/job-posting-school" />
-        <Route
-          component={Teacherapplicationpage}
-          exact
-          path="/teacherapplicationpage"
-        />
-        <Route
-          component={TeachersProfileapplications}
-          exact
-          path="/teachers-profileapplications"
-        />
+        <Route component={Teacherapplicationpage} exact path="/teacherapplicationpage" />
+        <Route component={TeachersProfileapplications} exact path="/teachers-profileapplications" />
         <Route component={Teacherlogin} exact path="/teacherlogin" />
-        <Route
-          component={Schooldashboardhires}
-          exact
-          path="/schooldashboardhires"
-        />
+        <Route component={Schooldashboardhires} exact path="/schooldashboardhires" />
         <Route component={Schoollogin} exact path="/schoollogin" />
-        <Route component={LandingPage} exact path="/landing-page" />
-        <Route
-          component={JobDetailsTeacher}
-          exact
-          path="/job-details-teacher"
-        />
+        <Route component={JobDetailsTeacher} exact path="/job-details-teacher" />
         <Route component={TeachersDashboard} exact path="/teachers-dashboard" />
-        <Route
-          component={Schooldashboardoverview}
-          exact
-          path="/schooldashboardoverview"
-        />
+        <Route component={Schooldashboardoverview} exact path="/schooldashboardoverview" />
         <Route component={ATSResumebuilder} exact path="/ats-resumebuilder" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
@@ -104,5 +64,6 @@ const App = () => {
     </Router>
   )
 }
+
 
 ReactDOM.render(<App />, document.getElementById('app'))

@@ -192,7 +192,7 @@
 }
 .landing-page-depth2-frame1 {
   display: flex;
-  padding: 20px 160px;
+  padding: 20px 50px;
   flex-grow: 1;
   align-self: stretch;
   align-items: flex-start;
@@ -209,25 +209,32 @@
 }
 .landing-page-depth4-frame02 {
   display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  width: 100%; /* Full width */
 }
+
 .landing-page-landing {
-  width: 1081px;
-  height: 480px;
+  width: 100%; /* Full width of parent */
+  max-width: 1320px; /* Restrict maximum width */
+  height: 480px; /* Fixed height */
+  position: relative; /* Establish context for absolute positioning */
+  overflow: hidden; /* Clips overflowing content */
+  border-radius: 30px;
+}
+.landing-page-img {
   display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  width: 100%;
+  height: 100%;
 }
 .landing-page-school3 {
-  top: 0px;
-  left: 1px;
-  width: 1080px;
-  height: 480px;
-  position: absolute;
-  border-radius: 30px;
+  width: 100%; /* Fill the container horizontally */
+  height: 100%; /* Fill the container vertically */
+  object-fit: cover; /* Ensures image fills the container without stretching */
+  object-position: center; /* Centers the image */
+  border-radius: 30px; /* Keeps the rounded corners */
 }
 .landing-page-rectangle10 {
   top: 0px;
@@ -238,6 +245,7 @@
   border-radius: 30px;
 }
 .landing-page-text16 {
+  z-index: 3;
   top: 264px;
   left: 39px;
   color: rgba(255, 255, 255, 1);
@@ -253,6 +261,7 @@
   text-decoration: none;
 }
 .landing-page-text17 {
+  z-index: 3;
   top: 309px;
   left: 39px;
   color: rgba(255, 255, 255, 1);
@@ -276,6 +285,7 @@
   border-radius: 10px;
 }
 .landing-page-text18 {
+  z-index: 3;
   top: 390px;
   left: 102px;
   color: rgba(163, 156, 156, 1);
@@ -306,6 +316,7 @@
   border-radius: 10px;
 }
 .landing-page-text19 {
+  z-index: 3;
   top: 390px;
   left: 479px;
   color: rgba(255, 255, 255, 1);
@@ -364,7 +375,7 @@
 }
 .landing-page-text21 {
   color: rgba(17, 20, 22, 1);
-  width: 1031px;
+  width: 1320px;
   height: auto;
   font-size: 16px;
   font-style: Regular;
@@ -419,7 +430,7 @@
 }
 .landing-page-text23 {
   color: rgba(17, 20, 22, 1);
-  width: 1061px;
+  width: 1320px;
   height: auto;
   font-size: 16px;
   font-style: Regular;
