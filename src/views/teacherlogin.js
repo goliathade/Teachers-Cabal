@@ -1,76 +1,79 @@
-import React from 'react'
+import React, { useState } from "react";
+import { Helmet } from "react-helmet";
+import "./teacherlogin.css"; // Assuming you have CSS for styling
 
-import { Helmet } from 'react-helmet'
+const TeacherLogin = (props) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-import './teacherlogin.css'
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-const Teacherlogin = (props) => {
+    console.log("Email:", email);
+    console.log("Password:", password);
+
+    setEmail("");
+    setPassword("");
+  };
+
   return (
     <div className="teacherlogin-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teacher Login</title>
       </Helmet>
       <div className="teacherlogin-teacherlogin">
-        <img
-          alt="Rectangle13520"
-          src="/external/rectangle13520-u5ba-700h.png"
-          className="teacherlogin-rectangle1"
-        />
-        <div className="teacherlogin-inputlabels">
-          <span className="teacherlogin-text1">Password</span>
-          <span className="teacherlogin-text2">Forgot your password?</span>
-          <span className="teacherlogin-text3">Email</span>
-        </div>
-        <div className="teacherlogin-loginbtn">
-          <span className="teacherlogin-text4">Log in</span>
-        </div>
-        <div className="teacherlogin-inputboxes">
+        {/* Header Section */}
+        <div className="teacherlogin-header">
           <img
-            alt="Rectangle43521"
-            src="/external/rectangle43521-g5bn-600w.png"
-            className="teacherlogin-rectangle4"
+            alt="Teachers Logo"
+            src="/external/teacherscaballogog13522-pd4-200h.png"
+            className="teacherlogin-logo"
           />
-          <img
-            alt="Rectangle23521"
-            src="/external/rectangle23521-lp25-600w.png"
-            className="teacherlogin-rectangle2"
-          />
-          <img
-            alt="Line53523"
-            src="/external/line53523-55b.svg"
-            className="teacherlogin-line5"
-          />
+          <h2 className="teacherlogin-title">Teachers Login</h2>
+          <p className="teacherlogin-subtitle">Login to your account</p>
         </div>
-        <div className="teacherlogin-teacher-loginmain">
-          <span className="teacherlogin-text5">Login to your account</span>
-          <span className="teacherlogin-text6">Teachers Login</span>
-        </div>
-        <img
-          alt="TeachersCabalLogog13522"
-          src="/external/teacherscaballogog13522-pd4-200h.png"
-          className="teacherlogin-teachers-cabal-logog1"
-        />
+
+        {/* Form Section */}
+        <form className="teacherlogin-form" onSubmit={handleSubmit}>
+          <div className="teacherlogin-input">
+            <label>Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+
+          <div className="teacherlogin-input">
+            <label>Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            <a href="/forgot-password-teacher" className="teacherlogin-forgot">
+              Forgot your password?
+            </a>
+          </div>
+
+          <button type="submit" className="teacherlogin-button">
+            Log in
+          </button>
+        </form>
+
+        {/* Footer Section */}
         <div className="teacherlogin-footer">
-          <span className="teacherlogin-text7">
-            <span className="teacherlogin-text8">
-              I’m not a teacher yet?
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>Sign up</span>
+          <span>
+            I'm not a teacher yet? <a href="/teacher-signup">Sign up</a>
           </span>
-          <img
-            alt="Line43522"
-            src="/external/line43522-u22i.svg"
-            className="teacherlogin-line4"
-          />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Teacherlogin
+export default TeacherLogin;

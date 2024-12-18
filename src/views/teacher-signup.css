@@ -1,291 +1,113 @@
-.teacher-signup-container {
-  width: 100%;
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  min-height: 100vh;
 }
-.teacher-signup-teacher-signup {
+
+.teacher-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 1024px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(247, 249, 251, 1);
+  padding: 20px;
 }
-.teacher-signup-rectangle1 {
-  top: 121px;
-  left: 350px;
-  width: 740px;
-  height: 843px;
-  position: absolute;
-  box-sizing: content-box;
-  border-radius: 30px;
-}
-.teacher-signup-inputlabels {
-  top: 366px;
-  left: 442px;
-  width: 208px;
-  height: 279.2872314453125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.teacher-signup-text10 {
-  top: 258px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 208px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.teacher-signup-text11 {
-  top: 172px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 111px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.teacher-signup-text12 {
-  top: 86px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 61px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.teacher-signup-text13 {
-  color: rgba(0, 0, 0, 0.5);
-  width: 108px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.teacher-signup-signupbtn {
-  top: 708px;
-  left: 423px;
-  width: 595px;
-  height: 79px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(2, 117, 177, 1);
-}
-.teacher-signup-text14 {
-  top: 25px;
-  left: 241px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  font-style: Semi Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.teacher-signup-inputboxes {
-  top: 347px;
-  left: 423px;
-  width: 598px;
-  height: 321px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.teacher-signup-rectangle4 {
-  top: 261.4718322753906px;
-  left: 0px;
-  width: 597px;
-  height: 60px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-width: 1px;
+
+.teacher-signup-card {
+  background-color: #fff;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
 }
-.teacher-signup-rectangle3 {
-  top: 86.6549301147461px;
-  left: 1.0033557415008545px;
-  width: 597px;
-  height: 60px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-}
-.teacher-signup-rectangle6 {
-  top: 0px;
-  left: 0px;
-  width: 597px;
-  height: 60px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-}
-.teacher-signup-rectangle2 {
-  top: 174.06338500976562px;
-  left: 0px;
-  width: 597px;
-  height: 60px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-}
-.teacher-signup-sign-upmain {
-  top: 168px;
-  left: 602px;
-  width: 237px;
-  height: 106px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.teacher-signup-text15 {
-  top: 77px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
+
+.teacher-signup-title {
+  color: #0073b1;
   font-size: 24px;
-  font-style: Regular;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.teacher-signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
-.teacher-signup-text16 {
-  left: 27px;
-  color: rgba(2, 117, 177, 1);
-  height: auto;
-  position: absolute;
-  font-size: 48px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
 }
-.teacher-signup-teachers-cabal-logog1 {
-  top: 0px;
-  left: 620px;
-  width: 199px;
-  height: 100px;
-  position: absolute;
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
 }
+
+.teacher-signup-button {
+  background-color: #0073b1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.teacher-signup-button:hover {
+  background-color: #005a90;
+}
+
 .teacher-signup-footer {
-  top: 816px;
-  left: 423px;
-  width: 597px;
-  height: 113px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
 }
-.teacher-signup-text17 {
-  top: 86px;
-  left: 134px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
+
+.teacher-signup-footer a {
+  color: #0073b1;
   text-decoration: none;
+  font-weight: bold;
 }
-.teacher-signup-text18 {
-  color: rgba(0, 0, 0, 1);
-  font-weight: 400;
+
+.teacher-signup-footer a:hover {
+  text-decoration: underline;
 }
-.teacher-signup-text20 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
+
+.teacher-signup-terms {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+.teacher-signup-terms a {
+  color: #0073b1;
   text-decoration: none;
+  font-weight: bold;
 }
-.teacher-signup-line1 {
-  top: 27px;
-  left: 298px;
-  width: 120px;
-  height: 1px;
-  position: absolute;
-}
-.teacher-signup-line4 {
-  top: 113px;
-  left: 382px;
-  width: 60px;
-  height: 1px;
-  position: absolute;
-}
-.teacher-signup-line2 {
-  top: 27px;
-  left: 468px;
-  width: 124px;
-  height: 1px;
-  position: absolute;
-}
-.teacher-signup-line3 {
-  top: 63px;
-  left: 6px;
-  width: 591px;
-  height: 1px;
-  position: absolute;
+
+.teacher-signup-terms a:hover {
+  text-decoration: underline;
 }

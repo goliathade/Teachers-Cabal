@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .landing-page-container {
   width: 100%;
   display: flex;
@@ -246,19 +260,30 @@
 }
 .landing-page-text16 {
   z-index: 3;
-  top: 264px;
-  left: 39px;
-  color: rgba(255, 255, 255, 1);
+  top: 250px;
+  left: 0;
+  color: white;
   height: auto;
   position: absolute;
-  font-size: 50px;
-  font-style: Bold;
-  text-align: center;
+  font-size: 45px;
+  font-style: Regular;
+  text-align: left;
   font-family: Walrus;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.search-button{
+  z-index: 3;
+  top: 395px;
+  left: 0;
+  color: black;
+  position: absolute;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
 .landing-page-text17 {
   z-index: 3;
@@ -268,7 +293,6 @@
   height: auto;
   position: absolute;
   font-size: 20px;
-  font-style: Regular;
   text-align: center;
   font-family: Lexend;
   font-weight: 400;
@@ -285,20 +309,25 @@
   border-radius: 10px;
 }
 .landing-page-text18 {
-  z-index: 3;
+  z-index: 2;
   top: 390px;
-  left: 102px;
+  left: 30px;
   color: rgba(163, 156, 156, 1);
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   font-style: Regular;
-  text-align: center;
+  text-align: left;
   font-family: Lexend;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 18em;
+  padding-left: 40px;
+  border-radius: 5px;
 }
 .landing-page-vector0 {
   top: 390px;
@@ -314,22 +343,20 @@
   height: 40px;
   position: absolute;
   border-radius: 10px;
+  text-align: right;
 }
 .landing-page-text19 {
   z-index: 3;
-  top: 390px;
-  left: 479px;
+  top: 397px;
+  left: 26.5em;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
-  font-size: 18px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Lexend;
-  font-weight: 400;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
+  background-color: #007bff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .landing-page-depth4-frame12 {
   gap: 40px;
@@ -931,6 +958,7 @@
 }
 .landing-page-text37 {
   font-weight: 700;
+  font-family: Walrus;
 }
 .landing-page-depth6-frame14 {
   display: flex;

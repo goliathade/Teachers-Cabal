@@ -12,7 +12,6 @@ import TeachersDashboardschools from './views/teachers-dashboardschools'
 import HelpTeachers from './views/help-teachers'
 import SchooldashboardApplicants from './views/schooldashboard-applicants'
 import TeacherProfileInterviews from './views/teacher-profile-interviews'
-import ForgotPassword from './views/forgot-password'
 import TeacherProfileOffers from './views/teacher-profile-offers'
 import Resuorcespage from './views/resuorcespage'
 import SchoolDashboardJobListing from './views/school-dashboard-job-listing'
@@ -31,6 +30,8 @@ import TeachersDashboard from './views/teachers-dashboard'
 import Schooldashboardoverview from './views/schooldashboardoverview'
 import ATSResumebuilder from './views/ats-resumebuilder'
 import NotFound from './views/not-found'
+import ForgotPasswordSchool from './views/forgot-password-school'
+import ForgotPasswordTeacher from './views/forgot-password-teacher'
 
 const App = () => {
   return (
@@ -41,7 +42,8 @@ const App = () => {
         <Route component={HelpTeachers} exact path="/help-teachers" />
         <Route component={SchooldashboardApplicants} exact path="/schooldashboard-applicants" />
         <Route component={TeacherProfileInterviews} exact path="/teacher-profile-interviews" />
-        <Route component={ForgotPassword} exact path="/forgot-password" />
+        <Route component={ForgotPasswordSchool} exact path="/forgot-password-school" />
+        <Route component={ForgotPasswordTeacher} exact path="/forgot-password-teacher" />
         <Route component={TeacherProfileOffers} exact path="/teacher-profile-offers" />
         <Route component={Resuorcespage} exact path="/resuorcespage" />
         <Route component={SchoolDashboardJobListing} exact path="/school-dashboard-job-listing" />

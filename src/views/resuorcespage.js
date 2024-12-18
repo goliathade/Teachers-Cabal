@@ -14,36 +14,37 @@ const Resuorcespage = (props) => {
         <div className="resuorcespage-depth0-frame0">
           <div className="resuorcespage-depth1-frame0">
             <div className="resuorcespage-depth2-frame0">
-              <img
-                alt="TeachersCabalLogog11051"
-                src="/external/teacherscaballogog11051-pbyd-200h.png"
-                className="resuorcespage-teachers-cabal-logog1"
+            <img
+                alt="TeachersCabalLogog19019"
+                style={{ width: '100px', height: 'auto' }}
+                src="external/teacherscaballogog13414-vdvl-200h.png"
+                className="landing-page-teachers-cabal-logog1"
               />
-              <div className="resuorcespage-depth3-frame1">
-                <div className="resuorcespage-depth4-frame01">
-                  <div className="resuorcespage-depth5-frame01">
-                    <span className="resuorcespage-text10">Find a Job</span>
-                  </div>
-                  <div className="resuorcespage-depth5-frame11">
-                    <span className="resuorcespage-text11">Post a Job</span>
-                  </div>
-                  <div className="resuorcespage-depth5-frame2">
-                    <span className="resuorcespage-text12">Resources</span>
-                  </div>
-                  <div className="resuorcespage-depth5-frame3">
-                    <span className="resuorcespage-text13">Community</span>
+             <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                  <div className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">Community</span>
                   </div>
                 </div>
-                <div className="resuorcespage-depth4-frame11">
-                  <div className="resuorcespage-depth5-frame02">
-                    <div className="resuorcespage-depth6-frame01">
-                      <span className="resuorcespage-text14">Log in</span>
-                    </div>
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
                   </div>
-                  <div className="resuorcespage-depth5-frame12">
-                    <div className="resuorcespage-depth6-frame02">
-                      <span className="resuorcespage-text15">Sign up</span>
-                    </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -86,6 +87,7 @@ const Resuorcespage = (props) => {
                     </div>
                   </div>
                 </div>
+                
                 <div className="resuorcespage-depth4-frame12">
                   <div className="resuorcespage-depth5-frame04">
                     <span className="resuorcespage-text20">

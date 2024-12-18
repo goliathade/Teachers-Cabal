@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 import { Helmet } from 'react-helmet'
 
-import './landing-page.css'
+import './landing-page.css';
 
 const LandingPage = (props) => {
+   const [searchTerm, setSearchTerm] = useState(''); // State to hold search input
+
+  const handleSearch = () => {
+    console.log('Searching for:', searchTerm);
+    // Add search logic here, e.g., navigate to results page or filter content
+  };
   return (
     <div className="landing-page-container">
       <Helmet>
@@ -37,18 +43,19 @@ const LandingPage = (props) => {
                 </div>
                 <div className="landing-page-depth4-frame11">
                   <div className="landing-page-depth5-frame02">
-                    <div className="landing-page-depth6-frame01">
+                    <a href='#' className="landing-page-depth6-frame01">
                       <span className="landing-page-text14">Log in</span>
-                    </div>
+                    </a>
                   </div>
                   <div className="landing-page-depth5-frame12">
-                    <div className="landing-page-depth6-frame02">
+                    <a href='#' className="landing-page-depth6-frame02">
                       <span className="landing-page-text15">Sign up</span>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+            
             <div className="landing-page-depth2-frame1">
               <div className="landing-page-depth3-frame0">
                 <div className="landing-page-depth4-frame02">
@@ -67,25 +74,16 @@ const LandingPage = (props) => {
                     <span className="landing-page-text17">
                       Get matched with top schools and districts near your area
                     </span>
-                    <img
-                      alt="Rectangle89018"
-                      src="https://play.teleporthq.io/static/svg/default-img.svg"
-                      className="landing-page-rectangle8"
+                    <i class="fa-solid fa-magnifying-glass search-button"></i>
+                    <input 
+                      type='text' 
+                      placeholder='Enter your location'
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      style={{color: 'black'}}
+                      className="landing-page-text18"
                     />
-                    <span className="landing-page-text18">
-                      Enter your location
-                    </span>
-                    <img
-                      alt="Vector09018"
-                      src="https://play.teleporthq.io/static/svg/default-img.svg"
-                      className="landing-page-vector0"
-                    />
-                    <img
-                      alt="Rectangle99018"
-                      src="https://play.teleporthq.io/static/svg/default-img.svg"
-                      className="landing-page-rectangle9"
-                    />
-                    <span className="landing-page-text19">Search</span>
+                    <button  onClick={handleSearch} type='submit' className="landing-page-text19">Search</button>
                   </div>
                 </div>
                 <div className="landing-page-depth4-frame12">
@@ -127,11 +125,7 @@ const LandingPage = (props) => {
                     <div className="landing-page-depth6-frame05">
                       <div className="landing-page-depth7-frame01">
                         <div className="landing-page-depth8-frame01">
-                          <img
-                            alt="Depth9Frame08921"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame010"
-                          />
+                        <i class="fa-solid fa-magnifying-glass" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame11">
                           <div className="landing-page-depth9-frame011">
@@ -148,11 +142,7 @@ const LandingPage = (props) => {
                       </div>
                       <div className="landing-page-depth7-frame11">
                         <div className="landing-page-depth8-frame02">
-                          <img
-                            alt="Depth9Frame08922"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame012"
-                          />
+                        <i class="fa-solid fa-heart" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame12">
                           <div className="landing-page-depth9-frame013">
@@ -169,11 +159,7 @@ const LandingPage = (props) => {
                       </div>
                       <div className="landing-page-depth7-frame2">
                         <div className="landing-page-depth8-frame03">
-                          <img
-                            alt="Depth9Frame08923"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame014"
-                          />
+                        <i class="fa-solid fa-heart" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame13">
                           <div className="landing-page-depth9-frame015">
@@ -190,11 +176,7 @@ const LandingPage = (props) => {
                       </div>
                       <div className="landing-page-depth7-frame3">
                         <div className="landing-page-depth8-frame04">
-                          <img
-                            alt="Depth9Frame08924"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame016"
-                          />
+                        <i class="fa-solid fa-user-group" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame14">
                           <div className="landing-page-depth9-frame017">
@@ -211,11 +193,7 @@ const LandingPage = (props) => {
                       </div>
                       <div className="landing-page-depth7-frame4">
                         <div className="landing-page-depth8-frame05">
-                          <img
-                            alt="Depth9Frame08925"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame018"
-                          />
+                        <i class="fa-solid fa-user-group" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame15">
                           <div className="landing-page-depth9-frame019">
@@ -234,11 +212,7 @@ const LandingPage = (props) => {
                     <div className="landing-page-depth6-frame13">
                       <div className="landing-page-depth7-frame02">
                         <div className="landing-page-depth8-frame06">
-                          <img
-                            alt="Depth9Frame08926"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
-                            className="landing-page-depth9-frame020"
-                          />
+                        <i class="fa-solid fa-book" style={{color: 'blue'}}></i>
                         </div>
                         <div className="landing-page-depth8-frame16">
                           <div className="landing-page-depth9-frame021">
@@ -277,9 +251,9 @@ const LandingPage = (props) => {
                       <div className="landing-page-depth7-frame03">
                         <div className="landing-page-depth8-frame07">
                           <div className="landing-page-depth9-frame022">
-                            <span className="landing-page-text41">
+                            <a href='/teacherlogin' className="landing-page-text41">
                               Find a job
-                            </span>
+                            </a>
                           </div>
                         </div>
                       </div>
