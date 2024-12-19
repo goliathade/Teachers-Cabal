@@ -8,7 +8,7 @@ const HelpTeachers = (props) => {
   return (
     <div className="help-teachers-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="help-teachers-help-teachers">
         <div className="help-teachers-depth0-frame0">

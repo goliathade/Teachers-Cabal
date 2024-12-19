@@ -8,7 +8,7 @@ const TeacherProfileInterviews = (props) => {
   return (
     <div className="teacher-profile-interviews-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="teacher-profile-interviews-teacher-profile-interviews">
         <div className="teacher-profile-interviews-depth0-frame0">

@@ -8,18 +8,20 @@ const Resuorcespage = (props) => {
   return (
     <div className="resuorcespage-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="resuorcespage-resuorcespage">
         <div className="resuorcespage-depth0-frame0">
           <div className="resuorcespage-depth1-frame0">
             <div className="resuorcespage-depth2-frame0">
-            <img
-                alt="TeachersCabalLogog19019"
-                style={{ width: '100px', height: 'auto' }}
-                src="external/teacherscaballogog13414-vdvl-200h.png"
-                className="landing-page-teachers-cabal-logog1"
-              />
+            <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
              <div className="landing-page-depth3-frame1">
                 <div className="landing-page-depth4-frame01">
                   <a href='/teacherlogin' className="landing-page-depth5-frame01">
@@ -69,20 +71,20 @@ const Resuorcespage = (props) => {
                         </div>
                       </div>
                       <div className="resuorcespage-depth7-frame110">
-                        <div className="resuorcespage-depth8-frame011">
+                        <a href='' className="resuorcespage-depth8-frame011">
                           <div className="resuorcespage-depth9-frame01">
-                            <span className="resuorcespage-text18">
+                            <a href='' className="resuorcespage-text18">
                               Explore Resources
-                            </span>
+                            </a>
                           </div>
-                        </div>
-                        <div className="resuorcespage-depth8-frame12">
+                        </a>
+                        <a href='/ats-resumebuilder' className="resuorcespage-depth8-frame12">
                           <div className="resuorcespage-depth9-frame02">
                             <span className="resuorcespage-text19">
                               Try our free resume builder
                             </span>
                           </div>
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>

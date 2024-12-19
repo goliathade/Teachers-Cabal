@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .resuorcespage-container {
   width: 100%;
   display: flex;
@@ -21,7 +35,7 @@
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
-  background-color: rgba(247, 249, 249, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 .resuorcespage-depth1-frame0 {
   display: flex;
@@ -222,22 +236,16 @@
   flex-direction: column;
 }
 .resuorcespage-depth6-frame03 {
-  gap: 32px;
-  width: 928px;
+  width: 1120px;
   height: 480px;
   display: flex;
-  padding: 0 40px 40px;
-  overflow: hidden;
-  position: relative;
-  align-self: stretch;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
+  padding: 40px;
+  background: url("/external/teachersClassroom.png");
   background-size: cover;
+  border-radius: 12px;
   justify-content: flex-end;
-  background-image: url("/external/tq_z94pc22bae-6n1-1000w.png");
 }
+
 .resuorcespage-depth7-frame010 {
   gap: 8px;
   top: 345px;
@@ -359,7 +367,7 @@
 .resuorcespage-depth4-frame12 {
   gap: 40px;
   display: flex;
-  padding: 40px 16px;
+  padding: 40px 5px;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
@@ -373,16 +381,11 @@
 }
 .resuorcespage-text20 {
   color: rgba(12, 22, 28, 1);
-  height: auto;
   font-size: 36px;
-  align-self: stretch;
-  font-style: Black;
-  text-align: left;
   font-family: Lexend;
   font-weight: 900;
-  line-height: 45px;
-  font-stretch: normal;
-  text-decoration: none;
+  white-space: nowrap;
+  text-align: left;
 }
 .resuorcespage-depth4-frame2 {
   height: 60px;

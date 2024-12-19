@@ -14,18 +14,20 @@ const LandingPage = (props) => {
   return (
     <div className="landing-page-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="landing-page-landing-page">
         <div className="landing-page-depth0-frame0">
           <div className="landing-page-depth1-frame0">
             <div className="landing-page-depth2-frame0">
-              <img
-                alt="TeachersCabalLogog19019"
-                style={{ width: '100px', height: 'auto' }}
-                src="external/teacherscaballogog13414-vdvl-200h.png"
-                className="landing-page-teachers-cabal-logog1"
-              />
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
               <div className="landing-page-depth3-frame1">
                 <div className="landing-page-depth4-frame01">
                   <a href='/teacherlogin' className="landing-page-depth5-frame01">
@@ -249,13 +251,13 @@ const LandingPage = (props) => {
                     </div>
                     <div className="landing-page-depth6-frame14">
                       <div className="landing-page-depth7-frame03">
-                        <div className="landing-page-depth8-frame07">
+                        <a href='/teacherlogin' className="landing-page-depth8-frame07">
                           <div className="landing-page-depth9-frame022">
-                            <a href='/teacherlogin' className="landing-page-text41">
+                            <span className="landing-page-text41">
                               Find a job
-                            </a>
+                            </span>
                           </div>
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -8,45 +8,50 @@ const TeachersDashboard = (props) => {
   return (
     <div className="teachers-dashboard-container1">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="teachers-dashboard-teachers-dashboard">
         <div className="teachers-dashboard-frame">
           <div className="teachers-dashboard-container2">
-            <div className="teachers-dashboard-frameheader">
-              <img
-                alt="TeachersCabalLogog14099"
-                src="/external/teacherscaballogog14099-11hq-200h.png"
-                className="teachers-dashboard-teachers-cabal-logog1"
-              />
-              <div className="teachers-dashboard-innerheader">
-                <div className="teachers-dashboard-sideheader">
-                  <div className="teachers-dashboard-depth5-frame01">
-                    <span className="teachers-dashboard-text10">Home</span>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame11">
-                    <span className="teachers-dashboard-text11">
-                      Job Search
-                    </span>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame2">
-                    <span className="teachers-dashboard-text12">Resources</span>
+          <div className="landing-page-depth2-frame0">
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
+              <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                  <div className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">Community</span>
                   </div>
                 </div>
-                <div className="teachers-dashboard-sideheadericons">
-                  <img
-                    alt="Depth5Frame03827"
-                    src="/external/depth5frame03827-cs7jf.svg"
-                    className="teachers-dashboard-depth5-frame02"
-                  />
-                  <img
-                    alt="Depth5Frame13828"
-                    src="/external/depth5frame13828-szu.svg"
-                    className="teachers-dashboard-depth5-frame12"
-                  />
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
+                  </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
+
             <div className="teachers-dashboard-depth2-frame1">
               <div className="teachers-dashboard-frames">
                 <div className="teachers-dashboard-framelevel2">

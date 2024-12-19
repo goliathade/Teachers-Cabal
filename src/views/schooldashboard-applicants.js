@@ -8,7 +8,7 @@ const SchooldashboardApplicants = (props) => {
   return (
     <div className="schooldashboard-applicants-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="schooldashboard-applicants-schooldashboard-applicants">
         <div className="schooldashboard-applicants-depth0-frame0">

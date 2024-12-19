@@ -137,6 +137,7 @@
   height: 700px;
   display: flex;
   padding: 16px;
+  margin-right: 80px;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;

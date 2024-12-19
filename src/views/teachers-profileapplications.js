@@ -8,7 +8,7 @@ const TeachersProfileapplications = (props) => {
   return (
     <div className="teachers-profileapplications-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="teachers-profileapplications-teachers-profileapplications">
         <div className="teachers-profileapplications-frame">

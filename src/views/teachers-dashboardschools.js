@@ -8,7 +8,7 @@ const TeachersDashboardschools = (props) => {
   return (
     <div className="teachers-dashboardschools-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="teachers-dashboardschools-teachers-dashboardschools">
         <div className="teachers-dashboardschools-frame">

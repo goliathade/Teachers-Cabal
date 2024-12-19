@@ -8,7 +8,7 @@ const JobPostingSchool = (props) => {
   return (
     <div className="job-posting-school-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Teachers Cabal</title>
       </Helmet>
       <div className="job-posting-school-job-posting-school">
         <div className="job-posting-school-depth0-frame0">
