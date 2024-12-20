@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 .resuorcespage-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -205,6 +205,7 @@ body {
   text-decoration: none;
 }
 .resuorcespage-depth2-frame1 {
+  width: 1420px;
   display: flex;
   padding: 20px 50px;
   align-self: stretch;
@@ -236,7 +237,7 @@ body {
   flex-direction: column;
 }
 .resuorcespage-depth6-frame03 {
-  width: 1120px;
+  width: 1330px;
   height: 480px;
   display: flex;
   padding: 40px;
@@ -249,7 +250,7 @@ body {
 .resuorcespage-depth7-frame010 {
   gap: 8px;
   top: 345px;
-  left: 216px;
+  left: 100px;
   width: 848px;
   display: flex;
   position: absolute;
@@ -269,7 +270,6 @@ body {
   height: auto;
   font-size: 48px;
   align-self: stretch;
-  font-style: Black;
   text-align: left;
   font-family: Lexend;
   font-weight: 900;
@@ -299,7 +299,7 @@ body {
 .resuorcespage-depth7-frame110 {
   gap: 12px;
   top: 493px;
-  left: 216px;
+  left: 100px;
   width: 465px;
   display: flex;
   position: absolute;
@@ -327,7 +327,6 @@ body {
   color: rgba(12, 22, 28, 1);
   height: auto;
   font-size: 16px;
-  font-style: Bold;
   text-align: center;
   font-family: Lexend;
   font-weight: 700;

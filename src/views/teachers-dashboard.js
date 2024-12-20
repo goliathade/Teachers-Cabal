@@ -73,49 +73,49 @@ const TeachersDashboard = (props) => {
                     </div>
                   </div>
                   <div className="teachers-dashboard-depth6-frame11">
-                    <div className="teachers-dashboard-depth7-frame011">
+                    <div className="teachers-dashboard-depth7-frame011 active">
                       <div className="teachers-dashboard-depth8-frame01">
-                        <span className="teachers-dashboard-text15">
+                        <a href='#' className="teachers-dashboard-text15">
                           Dashboard
-                        </span>
+                        </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame12">
                       <div className="teachers-dashboard-depth8-frame02">
-                        <span className="teachers-dashboard-text16">
+                        <a href='/teachers-dashboardschools' className="teachers-dashboard-text16">
                           Schools
-                        </span>
+                        </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame2">
                       <div className="teachers-dashboard-depth8-frame03">
-                        <span className="teachers-dashboard-text17">
+                        <a href='teachers-profileapplications' className="teachers-dashboard-text17">
                           Applications
-                        </span>
+                        </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame3">
                       <div className="teachers-dashboard-depth8-frame04">
-                        <span className="teachers-dashboard-text18">
+                        <a href='teacher-profile-interviews' className="teachers-dashboard-text18">
                           Interviews
-                        </span>
+                        </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame4">
                       <div className="teachers-dashboard-depth8-frame05">
-                        <span className="teachers-dashboard-text19">
+                        <a href='teacher-profile-offers' className="teachers-dashboard-text19">
                           Offers
-                        </span>
+                        </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame5">
                       <div className="teachers-dashboard-depth8-frame06">
-                        <span className="teachers-dashboard-text20">Help</span>
+                        <a href='help-teachers' className="teachers-dashboard-text20">Help</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="teachers-dashboard-depth6-frame011">
+                <a href='' className="teachers-dashboard-depth6-frame011">
                   <div className="teachers-dashboard-depth7-frame012">
                     <img
                       alt="Depth8Frame08391"
@@ -126,7 +126,7 @@ const TeachersDashboard = (props) => {
                   <div className="teachers-dashboard-depth7-frame13">
                     <span className="teachers-dashboard-text21">Logout</span>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="teachers-dashboard-dashboardmain">
                 <div className="teachers-dashboard-dashboardtext">
@@ -154,167 +154,229 @@ const TeachersDashboard = (props) => {
                       </span>
                     </div>
                   </div>
-                  <div className="teachers-dashboard-depth6-frame013">
+                  <a href='' className="teachers-dashboard-depth6-frame013">
                     <div className="teachers-dashboard-depth7-frame013">
                       <span className="teachers-dashboard-text26">
                         Complete
                       </span>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div className="teachers-dashboard-applicationstab">
                   <span className="teachers-dashboard-text27">
                     Applications
                   </span>
                 </div>
-                <div className="teachers-dashboard-applications1">
-                  <div className="teachers-dashboard-depth5-frame04">
-                    <img
-                      alt="Depth6Frame03831"
-                      src="/external/depth6frame03831-4tqj.svg"
-                      className="teachers-dashboard-depth6-frame014"
-                    />
-                    <div className="teachers-dashboard-depth6-frame13">
-                      <div className="teachers-dashboard-depth7-frame014">
-                        <span className="teachers-dashboard-text28">
-                          Director of Education
-                        </span>
-                      </div>
-                      <div className="teachers-dashboard-depth7-frame14">
-                        <span className="teachers-dashboard-text29">
-                          Application deadline: 01/09/2024
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame13">
-                    <div className="teachers-dashboard-depth6-frame015">
-                      <span className="teachers-dashboard-text30">
-                        Submitted
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="teachers-dashboard-applications2">
-                  <div className="teachers-dashboard-depth5-frame05">
-                    <div className="teachers-dashboard-depth6-frame016">
+                <div className='applicationsContainer'>
+                  <a href='' className="teachers-dashboard-applications1">
+                    <div className="teachers-dashboard-depth5-frame04">
                       <img
-                        alt="Depth7Frame03832"
-                        src="/external/depth7frame03832-nalj.svg"
-                        className="teachers-dashboard-depth7-frame015"
+                        alt="Depth6Frame03831"
+                        src="/external/depth6frame03831-4tqj.svg"
+                        className="teachers-dashboard-depth6-frame014"
                       />
-                    </div>
-                    <div className="teachers-dashboard-depth6-frame14">
-                      <div className="teachers-dashboard-depth7-frame016">
-                        <span className="teachers-dashboard-text31">
-                          Math Teacher
-                        </span>
+                      <div className="teachers-dashboard-depth6-frame13">
+                        <div className="teachers-dashboard-depth7-frame014">
+                          <span className="teachers-dashboard-text28">
+                            Director of Education
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame14">
+                          <span className="teachers-dashboard-text29">
+                            Application deadline: 01/09/2024
+                          </span>
+                        </div>
                       </div>
-                      <div className="teachers-dashboard-depth7-frame15">
-                        <span className="teachers-dashboard-text32">
-                          Application deadline: 10/15/2022
-                        </span>
-                      </div>
                     </div>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame14">
-                    <div className="teachers-dashboard-depth6-frame017">
-                      <span className="teachers-dashboard-text33">
-                        Submitted
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="teachers-dashboard-applications3">
-                  <div className="teachers-dashboard-depth5-frame06">
-                    <div className="teachers-dashboard-depth6-frame018">
-                      <img
-                        alt="Depth7Frame03834"
-                        src="/external/depth7frame03834-r8h.svg"
-                        className="teachers-dashboard-depth7-frame017"
-                      />
-                    </div>
-                    <div className="teachers-dashboard-depth6-frame15">
-                      <div className="teachers-dashboard-depth7-frame018">
-                        <span className="teachers-dashboard-text34">
-                          Global History Teacher
-                        </span>
-                      </div>
-                      <div className="teachers-dashboard-depth7-frame16">
-                        <span className="teachers-dashboard-text35">
-                          Application deadline: 09/30/2022
+                    <div className="teachers-dashboard-depth5-frame13">
+                      <div className="teachers-dashboard-depth6-frame015">
+                        <span className="teachers-dashboard-text30">
+                          Submitted
                         </span>
                       </div>
                     </div>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame15">
-                    <div className="teachers-dashboard-depth6-frame019">
-                      <span className="teachers-dashboard-text36">
-                        Submitted
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="teachers-dashboard-applications4">
-                  <div className="teachers-dashboard-depth5-frame07">
-                    <div className="teachers-dashboard-depth6-frame020">
-                      <img
-                        alt="Depth7Frame03835"
-                        src="/external/depth7frame03835-vm8z.svg"
-                        className="teachers-dashboard-depth7-frame019"
-                      />
-                    </div>
-                    <div className="teachers-dashboard-depth6-frame16">
-                      <div className="teachers-dashboard-depth7-frame020">
-                        <span className="teachers-dashboard-text37">
-                          College Counselor
-                        </span>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications2">
+                    <div className="teachers-dashboard-depth5-frame05">
+                      <div className="teachers-dashboard-depth6-frame016">
+                        <img
+                          alt="Depth7Frame03832"
+                          src="/external/depth7frame03832-nalj.svg"
+                          className="teachers-dashboard-depth7-frame015"
+                        />
                       </div>
-                      <div className="teachers-dashboard-depth7-frame17">
-                        <span className="teachers-dashboard-text38">
-                          Application deadline: 09/15/2022
-                        </span>
+                      <div className="teachers-dashboard-depth6-frame14">
+                        <div className="teachers-dashboard-depth7-frame016">
+                          <span className="teachers-dashboard-text31">
+                            Math Teacher
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame15">
+                          <span className="teachers-dashboard-text32">
+                            Application deadline: 10/15/2022
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame16">
-                    <div className="teachers-dashboard-depth6-frame021">
-                      <span className="teachers-dashboard-text39">
-                        Submitted
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="teachers-dashboard-applications5">
-                  <div className="teachers-dashboard-depth5-frame08">
-                    <div className="teachers-dashboard-depth6-frame022">
-                      <img
-                        alt="Depth7Frame03836"
-                        src="/external/depth7frame03836-zyr9.svg"
-                        className="teachers-dashboard-depth7-frame021"
-                      />
-                    </div>
-                    <div className="teachers-dashboard-depth6-frame17">
-                      <div className="teachers-dashboard-depth7-frame022">
-                        <span className="teachers-dashboard-text40">
-                          English Teacher
-                        </span>
-                      </div>
-                      <div className="teachers-dashboard-depth7-frame18">
-                        <span className="teachers-dashboard-text41">
-                          Application deadline: 09/01/2022
+                    <div className="teachers-dashboard-depth5-frame14">
+                      <div className="teachers-dashboard-depth6-frame017">
+                        <span className="teachers-dashboard-text33">
+                          Submitted
                         </span>
                       </div>
                     </div>
-                  </div>
-                  <div className="teachers-dashboard-depth5-frame17">
-                    <div className="teachers-dashboard-depth6-frame023">
-                      <span className="teachers-dashboard-text42">
-                        Submitted
-                      </span>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications3">
+                    <div className="teachers-dashboard-depth5-frame06">
+                      <div className="teachers-dashboard-depth6-frame018">
+                        <img
+                          alt="Depth7Frame03834"
+                          src="/external/depth7frame03834-r8h.svg"
+                          className="teachers-dashboard-depth7-frame017"
+                        />
+                      </div>
+                      <div className="teachers-dashboard-depth6-frame15">
+                        <div className="teachers-dashboard-depth7-frame018">
+                          <span className="teachers-dashboard-text34">
+                            Global History Teacher
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame16">
+                          <span className="teachers-dashboard-text35">
+                            Application deadline: 09/30/2022
+                          </span>
+                        </div>
+                      </div>
                     </div>
+                    <div className="teachers-dashboard-depth5-frame15">
+                      <div className="teachers-dashboard-depth6-frame019">
+                        <span className="teachers-dashboard-text36">
+                          Submitted
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications4">
+                    <div className="teachers-dashboard-depth5-frame07">
+                      <div className="teachers-dashboard-depth6-frame020">
+                        <img
+                          alt="Depth7Frame03835"
+                          src="/external/depth7frame03835-vm8z.svg"
+                          className="teachers-dashboard-depth7-frame019"
+                        />
+                      </div>
+                      <div className="teachers-dashboard-depth6-frame16">
+                        <div className="teachers-dashboard-depth7-frame020">
+                          <span className="teachers-dashboard-text37">
+                            College Counselor
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame17">
+                          <span className="teachers-dashboard-text38">
+                            Application deadline: 09/15/2022
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teachers-dashboard-depth5-frame16">
+                      <div className="teachers-dashboard-depth6-frame021">
+                        <span className="teachers-dashboard-text39">
+                          Submitted
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications5">
+                    <div className="teachers-dashboard-depth5-frame08">
+                      <div className="teachers-dashboard-depth6-frame022">
+                        <img
+                          alt="Depth7Frame03836"
+                          src="/external/depth7frame03836-zyr9.svg"
+                          className="teachers-dashboard-depth7-frame021"
+                        />
+                      </div>
+                      <div className="teachers-dashboard-depth6-frame17">
+                        <div className="teachers-dashboard-depth7-frame022">
+                          <span className="teachers-dashboard-text40">
+                            English Teacher
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame18">
+                          <span className="teachers-dashboard-text41">
+                            Application deadline: 09/01/2022
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teachers-dashboard-depth5-frame17">
+                      <div className="teachers-dashboard-depth6-frame023">
+                        <span className="teachers-dashboard-text42">
+                          Submitted
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications5">
+                    <div className="teachers-dashboard-depth5-frame08">
+                      <div className="teachers-dashboard-depth6-frame022">
+                        <img
+                          alt="Depth7Frame03836"
+                          src="/external/depth7frame03836-zyr9.svg"
+                          className="teachers-dashboard-depth7-frame021"
+                        />
+                      </div>
+                      <div className="teachers-dashboard-depth6-frame17">
+                        <div className="teachers-dashboard-depth7-frame022">
+                          <span className="teachers-dashboard-text40">
+                            English Teacher
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame18">
+                          <span className="teachers-dashboard-text41">
+                            Application deadline: 09/01/2022
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teachers-dashboard-depth5-frame17">
+                      <div className="teachers-dashboard-depth6-frame023">
+                        <span className="teachers-dashboard-text42">
+                          Submitted
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href='' className="teachers-dashboard-applications5">
+                    <div className="teachers-dashboard-depth5-frame08">
+                      <div className="teachers-dashboard-depth6-frame022">
+                        <img
+                          alt="Depth7Frame03836"
+                          src="/external/depth7frame03836-zyr9.svg"
+                          className="teachers-dashboard-depth7-frame021"
+                        />
+                      </div>
+                      <div className="teachers-dashboard-depth6-frame17">
+                        <div className="teachers-dashboard-depth7-frame022">
+                          <span className="teachers-dashboard-text40">
+                            English Teacher
+                          </span>
+                        </div>
+                        <div className="teachers-dashboard-depth7-frame18">
+                          <span className="teachers-dashboard-text41">
+                            Application deadline: 09/01/2022
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teachers-dashboard-depth5-frame17">
+                      <div className="teachers-dashboard-depth6-frame023">
+                        <span className="teachers-dashboard-text42">
+                          Submitted
+                        </span>
+                      </div>
+                    </div>
+                  </a>
                   </div>
-                </div>
               </div>
             </div>
           </div>

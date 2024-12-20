@@ -31,41 +31,41 @@ const Schooldashboardoverview = (props) => {
                   <div className="schooldashboardoverview-depth4-frame01">
                     <div className="schooldashboardoverview-depth5-frame02">
                       <div className="schooldashboardoverview-depth6-frame011">
-                        <div className="schooldashboardoverview-depth7-frame12">
+                        <a href='' className="schooldashboardoverview-depth7-frame12 active">
                           <div className="schooldashboardoverview-depth8-frame01">
                             <span className="schooldashboardoverview-text13">
                               Overview
                             </span>
                           </div>
-                        </div>
-                        <div className="schooldashboardoverview-depth7-frame2">
+                        </a>
+                        <a href='' className="schooldashboardoverview-depth7-frame2">
                           <div className="schooldashboardoverview-depth8-frame02">
                             <span className="schooldashboardoverview-text14">
                               Listings
                             </span>
                           </div>
-                        </div>
-                        <div className="schooldashboardoverview-depth7-frame4">
+                        </a>
+                        <a href='' className="schooldashboardoverview-depth7-frame4">
                           <div className="schooldashboardoverview-depth8-frame03">
                             <span className="schooldashboardoverview-text15">
                               Applicants
                             </span>
                           </div>
-                        </div>
-                        <div className="schooldashboardoverview-depth7-frame5">
+                        </a>
+                        <a href='' className="schooldashboardoverview-depth7-frame5">
                           <div className="schooldashboardoverview-depth8-frame04">
                             <span className="schooldashboardoverview-text16">
                               Hires
                             </span>
                           </div>
-                        </div>
-                        <div className="schooldashboardoverview-depth7-frame3">
+                        </a>
+                        <a href='' className="schooldashboardoverview-depth7-frame3">
                           <div className="schooldashboardoverview-depth8-frame05">
                             <span className="schooldashboardoverview-text17">
                               Hires
                             </span>
                           </div>
-                        </div>
+                        </a>
                       </div>
                       <div className="schooldashboardoverview-depth5-frame11">
                         <div className="schooldashboardoverview-depth6-frame012">

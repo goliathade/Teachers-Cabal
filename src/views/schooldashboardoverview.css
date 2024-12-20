@@ -1,5 +1,5 @@
 .schooldashboardoverview-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -107,6 +107,7 @@
 }
 .schooldashboardoverview-depth4-frame01 {
   gap: 390px;
+  width: 200px;
   height: 600px;
   display: flex;
   padding: 16px 16px 1px;
@@ -140,7 +141,12 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
+  cursor: pointer;
+}
+.schooldashboardoverview-depth7-frame12:hover, 
+.schooldashboardoverview-depth7-frame12:focus, .active {
   background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .schooldashboardoverview-depth8-frame01 {
   display: flex;
@@ -166,6 +172,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.schooldashboardoverview-depth7-frame2:hover, 
+.schooldashboardoverview-depth7-frame2:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .schooldashboardoverview-depth8-frame02 {
   display: flex;
@@ -191,6 +203,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.schooldashboardoverview-depth7-frame4:hover, 
+.schooldashboardoverview-depth7-frame4:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .schooldashboardoverview-depth8-frame03 {
   display: flex;
@@ -216,6 +234,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.schooldashboardoverview-depth7-frame5:hover, 
+.schooldashboardoverview-depth7-frame5:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .schooldashboardoverview-depth8-frame04 {
   display: flex;
@@ -241,6 +265,7 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .schooldashboardoverview-depth8-frame05 {
   display: flex;
@@ -266,9 +291,11 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 12px;
+  height: 30px;
+  border-radius: 10px;
   justify-content: center;
   background-color: rgba(25, 91, 229, 1);
+  cursor: pointer;
 }
 .schooldashboardoverview-depth6-frame012 {
   display: flex;
@@ -295,6 +322,7 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .schooldashboardoverview-depth7-frame02 {
   display: flex;

@@ -1,5 +1,5 @@
 .teachers-dashboard-container1 {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -15,6 +15,7 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
 }
+
 .teachers-dashboard-frame {
   display: flex;
   overflow: hidden;
@@ -136,7 +137,6 @@
 .teachers-dashboard-frames {
   height: 700px;
   display: flex;
-  padding: 16px;
   margin-right: 80px;
   align-self: stretch;
   align-items: flex-start;
@@ -209,6 +209,7 @@
   flex-direction: column;
 }
 .teachers-dashboard-depth7-frame011 {
+  cursor: pointer;
   gap: 12px;
   display: flex;
   padding: 8px 12px;
@@ -216,6 +217,12 @@
   align-items: center;
   flex-shrink: 0;
 }
+  .teachers-dashboard-depth7-frame011:hover, 
+  .teachers-dashboard-depth7-frame011:focus, .active {
+    background-color: rgba(232, 237, 242, 1);
+    border-radius: 10px;
+  }
+
 .teachers-dashboard-depth8-frame01 {
   display: flex;
   align-items: flex-start;
@@ -234,12 +241,18 @@
   text-decoration: none;
 }
 .teachers-dashboard-depth7-frame12 {
+  cursor: pointer;
   gap: 12px;
   display: flex;
   padding: 8px 12px;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+}
+.teachers-dashboard-depth7-frame12:hover, 
+.teachers-dashboard-depth7-frame12:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboard-depth8-frame02 {
   display: flex;
@@ -266,7 +279,12 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
+  cursor: pointer;
+}
+.teachers-dashboard-depth7-frame2:hover, 
+.teachers-dashboard-depth7-frame2:focus {
   background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboard-depth8-frame03 {
   display: flex;
@@ -292,6 +310,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboard-depth7-frame3:hover, 
+.teachers-dashboard-depth7-frame3:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboard-depth8-frame04 {
   display: flex;
@@ -317,6 +341,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboard-depth7-frame4:hover, 
+.teachers-dashboard-depth7-frame4:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboard-depth8-frame05 {
   display: flex;
@@ -342,6 +372,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboard-depth7-frame5:hover, 
+.teachers-dashboard-depth7-frame5:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboard-depth8-frame06 {
   display: flex;
@@ -363,10 +399,11 @@
 .teachers-dashboard-depth6-frame011 {
   gap: 12px;
   display: flex;
-  padding: 8px 12px;
+  padding: 20px 0;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .teachers-dashboard-depth7-frame012 {
   display: flex;
@@ -416,7 +453,7 @@
 }
 .teachers-dashboard-text22 {
   color: rgba(12, 22, 28, 1);
-  width: 288px;
+  width: 350px;
   height: auto;
   font-size: 36px;
   align-self: stretch;
@@ -499,6 +536,7 @@
   text-decoration: none;
 }
 .teachers-dashboard-depth6-frame013 {
+  cursor: pointer;
   height: 32px;
   display: flex;
   padding: 0 16px;
@@ -547,6 +585,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.applicationsContainer{
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
 .teachers-dashboard-applications1 {
   gap: 16px;
   display: flex;
@@ -555,7 +598,13 @@
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
-  background-color: rgba(247, 249, 249, 1);
+  cursor: pointer;
+}
+.teachers-dashboard-applications1:hover{
+  border: solid rgba(28, 130, 196, 1);
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px;
 }
 .teachers-dashboard-depth5-frame04 {
   gap: 16px;
@@ -643,6 +692,13 @@
   flex-shrink: 0;
   justify-content: space-between;
   background-color: rgba(247, 249, 249, 1);
+  cursor: pointer;
+}
+.teachers-dashboard-applications2:hover{
+  border: solid rgba(28, 130, 196, 1);
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px;
 }
 .teachers-dashboard-depth5-frame05 {
   gap: 16px;
@@ -740,6 +796,13 @@
   flex-shrink: 0;
   justify-content: space-between;
   background-color: rgba(247, 249, 249, 1);
+  cursor: pointer;
+}
+.teachers-dashboard-applications3:hover{
+  border: solid rgba(28, 130, 196, 1);
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px;
 }
 .teachers-dashboard-depth5-frame06 {
   gap: 16px;
@@ -837,6 +900,13 @@
   flex-shrink: 0;
   justify-content: space-between;
   background-color: rgba(247, 249, 249, 1);
+  cursor: pointer;
+}
+.teachers-dashboard-applications4:hover{
+  border: solid rgba(28, 130, 196, 1);
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px;
 }
 .teachers-dashboard-depth5-frame07 {
   gap: 16px;
@@ -934,6 +1004,13 @@
   flex-shrink: 0;
   justify-content: space-between;
   background-color: rgba(247, 249, 249, 1);
+  cursor: pointer;
+}
+.teachers-dashboard-applications5:hover{
+  border: solid rgba(28, 130, 196, 1);
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px;
 }
 .teachers-dashboard-depth5-frame08 {
   gap: 16px;

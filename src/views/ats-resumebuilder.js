@@ -47,11 +47,47 @@ const ATSResumebuilder = (props) => {
 
         {/* Basic Information */}
         <div className="ats-resumebuilder-section">
-          <label>Full Name</label>
-          <input type="text" placeholder="e.g. Jane Doe" />
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder='Jane Doe' />
 
-          <label>Job Title</label>
-          <input type="text" placeholder="e.g. Software Engineer" />
+          <label for="name">Email</label>
+          <input type="text" id="email" name="email" required placeholder='janedoe@gmail.com' />
+
+          <label for="name">Phone number</label>
+          <input type="text" id="phone" name="phone" required placeholder='+234-123-456-7890' />
+
+          <label for="name">age</label>
+          <input type="number" id="age" name="age" required placeholder='21' min={0}/>
+
+          <label for="name">address</label>
+          <input type="text" id="address" name="address" required placeholder='12 Glover Road...'/>
+
+          <label for="name">Professional Summary</label>
+          <textarea type="text" id="summary" name="summary" placeholder="Write about yourself..." required></textarea>
+
+          <label for="name">Field of study</label>
+          <textarea type="text" id="qual" name="qual" required placeholder='Computer Science...' />
+
+          <label for="name">Teaching Certifications</label>
+          <textarea type="text" id="certificate" name="certificate" placeholder='Certification names and descriptions...'/>
+
+          <label for="name">Teaching Certifications</label>
+          <input type="file" id="certificateDoc" name="certificateDoc" placeholder='Upload relevant certification'/>
+
+          <label for="name">Relevant Coursework/Development</label>
+          <textarea type="text" id="coursedev" name="coursedev" required placeholder='Relevant coursework and projects...'/>
+
+          <label for="name">Leadership/Mentorship Experience</label>
+          <textarea type="text" id="leader" name="leader" placeholder='Write about any leadership or mentorship experience...'/>
+
+          <label for="name">Subject(s) Area Expertise</label>
+          <input type="text" id="subject" name="subject" required placeholder='Specify subject of specialization e.g. Mathematics...'/>
+
+          <label for="name">Relevant Skills</label>
+          <textarea type="text" id="skills" name="skills" placeholder="Your skills" required></textarea>
+
+          <label for="name">profile picture</label>
+          <input type="file" id="profilepic" name="profilepic" required />
 
           <label>Experience Level</label>
           <select>
@@ -73,9 +109,6 @@ const ATSResumebuilder = (props) => {
             <option value="6-10">6-10 years</option>
             <option value="10+">10+ years</option>
           </select>
-
-          <label>Summary</label>
-          <textarea placeholder="Write a short summary about yourself..." />
         </div>
 
         {/* Work Experiences */}
