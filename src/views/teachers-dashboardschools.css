@@ -1,5 +1,5 @@
 .teachers-dashboardschools-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -39,9 +39,10 @@
   justify-content: center;
 }
 .teachers-dashboardschools-frames {
-  height: 840px;
+  height: 650px;
   display: flex;
-  padding: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
@@ -119,6 +120,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame011:hover, 
+.teachers-dashboardschools-depth7-frame011:focus{
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame01 {
   display: flex;
@@ -145,7 +152,12 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame2:hover, 
+.teachers-dashboardschools-depth7-frame2:focus, .active {
   background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame02 {
   display: flex;
@@ -171,6 +183,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame3:hover, 
+.teachers-dashboardschools-depth7-frame3:focus, .active {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame03 {
   display: flex;
@@ -196,6 +214,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame7:hover, 
+.teachers-dashboardschools-depth7-frame7:focus{
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame04 {
   display: flex;
@@ -221,6 +245,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame4:hover, 
+.teachers-dashboardschools-depth7-frame4:focus {
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame05 {
   display: flex;
@@ -246,6 +276,12 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.teachers-dashboardschools-depth7-frame5:hover, 
+.teachers-dashboardschools-depth7-frame5:focus{
+  background-color: rgba(232, 237, 242, 1);
+  border-radius: 10px;
 }
 .teachers-dashboardschools-depth8-frame06 {
   display: flex;
@@ -306,6 +342,18 @@
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
+  height: 650px;
+}
+.slider{
+  height: 650px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.slider-explore{
+  height: 650px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 .teachers-dashboardschools-depth4-frame01 {
   display: flex;
@@ -353,19 +401,7 @@
   border-radius: 0 12px 12px 0;
   background-color: rgba(232, 237, 242, 1);
 }
-.teachers-dashboardschools-text19 {
-  color: rgba(79, 122, 147, 1);
-  width: 151px;
-  height: auto;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .teachers-dashboardschools-depth4-frame11 {
   gap: 12px;
   display: flex;
@@ -419,7 +455,7 @@
   background-color: rgba(232, 237, 242, 1);
 }
 .teachers-dashboardschools-depth6-frame014 {
-  width: 95px;
+  width: 100px;
   display: flex;
   flex-grow: 1;
   align-items: flex-start;
@@ -548,7 +584,7 @@
   gap: 8px;
   height: 32px;
   display: flex;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
@@ -586,7 +622,7 @@
   gap: 8px;
   height: 32px;
   display: flex;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
@@ -624,7 +660,7 @@
   gap: 8px;
   height: 32px;
   display: flex;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
@@ -662,7 +698,7 @@
   gap: 8px;
   height: 32px;
   display: flex;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
@@ -700,7 +736,7 @@
   gap: 8px;
   height: 32px;
   display: flex;
-  padding: 0 8px 0 16px;
+  padding: 0 16px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 12px;
@@ -766,8 +802,8 @@
   color: rgba(12, 22, 28, 1);
   height: auto;
   font-size: 14px;
+  width: 70px;
   align-self: stretch;
-  font-style: Medium;
   text-align: left;
   font-family: Inter;
   font-weight: 500;
@@ -797,9 +833,9 @@
 .teachers-dashboardschools-text31 {
   color: rgba(12, 22, 28, 1);
   height: auto;
+  width: 100px;
   font-size: 14px;
   align-self: stretch;
-  font-style: Medium;
   text-align: left;
   font-family: Inter;
   font-weight: 500;
@@ -1454,6 +1490,7 @@
 }
 .teachers-dashboardschools-depth3-frame1 {
   width: 744px;
+  height: 650px;
   display: flex;
   overflow: hidden;
   flex-grow: 1;

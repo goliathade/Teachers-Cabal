@@ -128,14 +128,14 @@
 }
 .teachers-dashboard-depth2-frame1 {
   display: flex;
-  padding: 20px 160px 20px 50px;
+  padding: 20px 25px;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: center;
 }
 .teachers-dashboard-frames {
-  height: 700px;
+  height: 650px;
   display: flex;
   margin-right: 80px;
   align-self: stretch;

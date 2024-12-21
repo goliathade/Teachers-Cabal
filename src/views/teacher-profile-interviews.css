@@ -1,5 +1,5 @@
 .teacher-profile-interviews-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -29,6 +29,17 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.slider-interview{
+  height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.slider-interview-second{
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
 .teacher-profile-interviews-depth2-frame0 {
   gap: 4px;
   display: flex;

@@ -53,6 +53,7 @@ const TeachersDashboard = (props) => {
             </div>
 
             <div className="teachers-dashboard-depth2-frame1">
+              
               <div className="teachers-dashboard-frames">
                 <div className="teachers-dashboard-framelevel2">
                   <img
@@ -75,7 +76,7 @@ const TeachersDashboard = (props) => {
                   <div className="teachers-dashboard-depth6-frame11">
                     <div className="teachers-dashboard-depth7-frame011 active">
                       <div className="teachers-dashboard-depth8-frame01">
-                        <a href='#' className="teachers-dashboard-text15">
+                        <a href='' className="teachers-dashboard-text15">
                           Dashboard
                         </a>
                       </div>
@@ -89,32 +90,33 @@ const TeachersDashboard = (props) => {
                     </div>
                     <div className="teachers-dashboard-depth7-frame2">
                       <div className="teachers-dashboard-depth8-frame03">
-                        <a href='teachers-profileapplications' className="teachers-dashboard-text17">
+                        <a href='/teachers-profileapplications' className="teachers-dashboard-text17">
                           Applications
                         </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame3">
                       <div className="teachers-dashboard-depth8-frame04">
-                        <a href='teacher-profile-interviews' className="teachers-dashboard-text18">
+                        <a href='/teacher-profile-interviews' className="teachers-dashboard-text18">
                           Interviews
                         </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame4">
                       <div className="teachers-dashboard-depth8-frame05">
-                        <a href='teacher-profile-offers' className="teachers-dashboard-text19">
+                        <a href='/teacher-profile-offers' className="teachers-dashboard-text19">
                           Offers
                         </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame5">
                       <div className="teachers-dashboard-depth8-frame06">
-                        <a href='help-teachers' className="teachers-dashboard-text20">Help</a>
+                        <a href='/help-teachers' className="teachers-dashboard-text20">Help</a>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <a href='' className="teachers-dashboard-depth6-frame011">
                   <div className="teachers-dashboard-depth7-frame012">
                     <img
@@ -128,6 +130,7 @@ const TeachersDashboard = (props) => {
                   </div>
                 </a>
               </div>
+
               <div className="teachers-dashboard-dashboardmain">
                 <div className="teachers-dashboard-dashboardtext">
                   <span className="teachers-dashboard-text22">
