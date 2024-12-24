@@ -11,71 +11,121 @@ const SchoolDashboardJobListing = (props) => {
         <title>Teachers Cabal</title>
       </Helmet>
       <div className="school-dashboard-job-listing-school-dashboard-job-listing">
-        <div className="school-dashboard-job-listing-depth0-frame0">
-          <div className="school-dashboard-job-listing-depth1-frame0">
-            <div className="school-dashboard-job-listing-depth2-frame0">
-              <div className="school-dashboard-job-listing-depth3-frame0">
-                <div className="school-dashboard-job-listing-depth5-frame01">
-                  <div className="school-dashboard-job-listing-depth6-frame01"></div>
-                  <div className="school-dashboard-job-listing-depth6-frame11">
-                    <div className="school-dashboard-job-listing-depth7-frame010">
-                      <span className="school-dashboard-job-listing-text10">
-                        <br></br>
-                        <span>Oakland Unified School District</span>
-                      </span>
-                    </div>
-                    <div className="school-dashboard-job-listing-depth7-frame11"></div>
+             
+      <div className="landing-page-depth2-frame0">
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
+              <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                  <div className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">Community</span>
                   </div>
                 </div>
-                <div className="school-dashboard-job-listing-depth4-frame01">
-                  <div className="school-dashboard-job-listing-depth5-frame02">
-                    <div className="school-dashboard-job-listing-depth6-frame02">
-                      <div className="school-dashboard-job-listing-depth7-frame011">
-                        <div className="school-dashboard-job-listing-depth8-frame01">
-                          <span className="school-dashboard-job-listing-text13">
-                            Overview
-                          </span>
-                        </div>
-                      </div>
-                      <div className="school-dashboard-job-listing-depth7-frame12">
-                        <div className="school-dashboard-job-listing-depth8-frame02">
-                          <span className="school-dashboard-job-listing-text14">
-                            Listings
-                          </span>
-                        </div>
-                      </div>
-                      <div className="school-dashboard-job-listing-depth7-frame2">
-                        <div className="school-dashboard-job-listing-depth8-frame03">
-                          <span className="school-dashboard-job-listing-text15">
-                            Applicants
-                          </span>
-                        </div>
-                      </div>
-                      <div className="school-dashboard-job-listing-depth7-frame3">
-                        <div className="school-dashboard-job-listing-depth8-frame04">
-                          <span className="school-dashboard-job-listing-text16">
-                            Hires
-                          </span>
-                        </div>
-                      </div>
-                    </div>
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
                   </div>
-                  <div className="school-dashboard-job-listing-depth6-frame03">
-                    <div className="school-dashboard-job-listing-depth7-frame012">
-                      <img
-                        alt="Depth8Frame01014"
-                        src="/external/depth8frame01014-i5nb.svg"
-                        className="school-dashboard-job-listing-depth8-frame05"
-                      />
-                    </div>
-                    <div className="school-dashboard-job-listing-depth7-frame13">
-                      <span className="school-dashboard-job-listing-text17">
-                        Logout
-                      </span>
-                    </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+
+        <div className="school-dashboard-job-listing-depth0-frame0">
+          <div className="school-dashboard-job-listing-depth1-frame0">
+
+            <div className="school-dashboard-job-listing-depth2-frame0">
+              
+            <div className="schooldashboardoverview-depth3-frame02">
+                  <div className="schooldashboardoverview-depth5-frame01">
+                    <div className="schooldashboardoverview-depth6-frame010"></div>
+                    <div className="schooldashboardoverview-depth6-frame11">
+                      <div className="schooldashboardoverview-depth7-frame01">
+                        <span className="schooldashboardoverview-text10">
+                          <br></br>
+                          <span>Oakland Unified School District</span>
+                        </span>
+                      </div>
+                      <div className="schooldashboardoverview-depth7-frame11"></div>
+                    </div>
+                  </div>
+                  <div className="schooldashboardoverview-depth4-frame01">
+                    <div className="schooldashboardoverview-depth5-frame02">
+                      <div className="schooldashboardoverview-depth6-frame011">
+                        <a href='/schooldashboardoverview' className="schooldashboardoverview-depth7-frame12">
+                          <div className="schooldashboardoverview-depth8-frame01">
+                            <span className="schooldashboardoverview-text13">
+                              Overview
+                            </span>
+                          </div>
+                        </a>
+                        <a href='' className="schooldashboardoverview-depth7-frame2 active">
+                          <div className="schooldashboardoverview-depth8-frame02">
+                            <span className="schooldashboardoverview-text14">
+                              Listings
+                            </span>
+                          </div>
+                        </a>
+                        <a href='/schooldashboard-applicants' className="schooldashboardoverview-depth7-frame4">
+                          <div className="schooldashboardoverview-depth8-frame03">
+                            <span className="schooldashboardoverview-text15">
+                              Applicants
+                            </span>
+                          </div>
+                        </a>
+                        <a href='/schooldashboardhires' className="schooldashboardoverview-depth7-frame5">
+                          <div className="schooldashboardoverview-depth8-frame04">
+                            <span className="schooldashboardoverview-text16">
+                              Hires
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="schooldashboardoverview-depth5-frame11">
+                        <div className="schooldashboardoverview-depth6-frame012">
+                          <span className="schooldashboardoverview-text18">
+                            New School
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="schooldashboardoverview-depth6-frame013">
+                      <div className="schooldashboardoverview-depth7-frame02">
+                        <img
+                          alt="Depth8Frame01037"
+                          src="/external/depth8frame01037-wujq.svg"
+                          className="schooldashboardoverview-depth8-frame06"
+                        />
+                      </div>
+                      <div className="schooldashboardoverview-depth7-frame13">
+                        <span className="schooldashboardoverview-text19">
+                          Logout
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               <div className="school-dashboard-job-listing-depth3-frame1">
                 <div className="school-dashboard-job-listing-depth4-frame02">
                   <div className="school-dashboard-job-listing-depth5-frame03">
@@ -107,13 +157,13 @@ const SchoolDashboardJobListing = (props) => {
                         </span>
                       </div>
                     </div>
-                    <div className="school-dashboard-job-listing-depth6-frame13">
+                    <a href='' className="school-dashboard-job-listing-depth6-frame13">
                       <div className="school-dashboard-job-listing-depth7-frame014">
                         <span className="school-dashboard-job-listing-text22">
                           Feature this listing
                         </span>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
                 <div className="school-dashboard-job-listing-depth4-frame2">
@@ -126,14 +176,11 @@ const SchoolDashboardJobListing = (props) => {
                           className="school-dashboard-job-listing-depth8-frame06"
                         />
                       </div>
-                      <div className="school-dashboard-job-listing-depth7-frame15">
-                        <span className="school-dashboard-job-listing-text23">
-                          Filter by name
-                        </span>
-                      </div>
+                      <input type='text' placeholder='Filter by name' className="school-dashboard-job-listing-depth7-frame15"/>
                     </div>
                   </div>
                 </div>
+
                 <div className="school-dashboard-job-listing-depth4-frame3">
                   <div className="school-dashboard-job-listing-depth5-frame06">
                     <div className="school-dashboard-job-listing-depth6-frame07">
@@ -166,6 +213,7 @@ const SchoolDashboardJobListing = (props) => {
                     </div>
                   </div>
                 </div>
+
                 <div className="school-dashboard-job-listing-depth4-frame4">
                   <div className="school-dashboard-job-listing-depth5-frame07">
                     <div className="school-dashboard-job-listing-depth6-frame08">

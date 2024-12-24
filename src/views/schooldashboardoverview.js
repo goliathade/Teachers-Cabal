@@ -11,10 +11,52 @@ const Schooldashboardoverview = (props) => {
         <title>Teachers Cabal</title>
       </Helmet>
       <div className="schooldashboardoverview-schooldashboardoverview">
+
+             
+      <div className="landing-page-depth2-frame0">
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
+              <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                  <div className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">Community</span>
+                  </div>
+                </div>
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
+                  </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
         <div className="schooldashboardoverview-depth0-frame0">
           <div className="schooldashboardoverview-depth1-frame0">
             <div className="schooldashboardoverview-depth2-frame0">
               <div className="schooldashboardoverview-depth3-frame01">
+
                 <div className="schooldashboardoverview-depth3-frame02">
                   <div className="schooldashboardoverview-depth5-frame01">
                     <div className="schooldashboardoverview-depth6-frame010"></div>
@@ -38,30 +80,23 @@ const Schooldashboardoverview = (props) => {
                             </span>
                           </div>
                         </a>
-                        <a href='' className="schooldashboardoverview-depth7-frame2">
+                        <a href='/school-dashboard-job-listing' className="schooldashboardoverview-depth7-frame2">
                           <div className="schooldashboardoverview-depth8-frame02">
                             <span className="schooldashboardoverview-text14">
                               Listings
                             </span>
                           </div>
                         </a>
-                        <a href='' className="schooldashboardoverview-depth7-frame4">
+                        <a href='/schooldashboard-applicants' className="schooldashboardoverview-depth7-frame4">
                           <div className="schooldashboardoverview-depth8-frame03">
                             <span className="schooldashboardoverview-text15">
                               Applicants
                             </span>
                           </div>
                         </a>
-                        <a href='' className="schooldashboardoverview-depth7-frame5">
+                        <a href='/schooldashboardhires' className="schooldashboardoverview-depth7-frame5">
                           <div className="schooldashboardoverview-depth8-frame04">
                             <span className="schooldashboardoverview-text16">
-                              Hires
-                            </span>
-                          </div>
-                        </a>
-                        <a href='' className="schooldashboardoverview-depth7-frame3">
-                          <div className="schooldashboardoverview-depth8-frame05">
-                            <span className="schooldashboardoverview-text17">
                               Hires
                             </span>
                           </div>
@@ -91,6 +126,7 @@ const Schooldashboardoverview = (props) => {
                     </div>
                   </div>
                 </div>
+
               </div>
               <div className="schooldashboardoverview-depth3-frame1">
                 <div className="schooldashboardoverview-depth4-frame02">
