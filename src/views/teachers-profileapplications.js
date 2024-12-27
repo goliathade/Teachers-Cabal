@@ -32,9 +32,9 @@ const TeachersProfileapplications = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                  <div className="landing-page-depth5-frame3">
-                    <span className="landing-page-text13">Community</span>
-                  </div>
+                    <a href='' className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">About</span>
+                  </a>
                 </div>
                 <div className="landing-page-depth4-frame11">
                   <div className="landing-page-depth5-frame02">
@@ -96,21 +96,21 @@ const TeachersProfileapplications = (props) => {
                     </div>
                     <div className="teachers-dashboard-depth7-frame3">
                       <div className="teachers-dashboard-depth8-frame04">
-                        <a href='teacher-profile-interviews' className="teachers-dashboard-text18">
+                        <a href='/teacher-profile-interviews' className="teachers-dashboard-text18">
                           Interviews
                         </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame4">
                       <div className="teachers-dashboard-depth8-frame05">
-                        <a href='teacher-profile-offers' className="teachers-dashboard-text19">
+                        <a href='/teacher-profile-offers' className="teachers-dashboard-text19">
                           Offers
                         </a>
                       </div>
                     </div>
                     <div className="teachers-dashboard-depth7-frame5">
                       <div className="teachers-dashboard-depth8-frame06">
-                        <a href='help-teachers' className="teachers-dashboard-text20">Help</a>
+                        <a href='/help-teachers' className="teachers-dashboard-text20">Help</a>
                       </div>
                     </div>
                   </div>
@@ -195,7 +195,7 @@ const TeachersProfileapplications = (props) => {
                   </div>
                 </div>
               </div>
-              <div className='slider'>
+              <div className='slider1'>
                     <div className="teachers-profileapplications-depth4-frame3">
                       <div className="teachers-profileapplications-depth5-frame04"></div>
                       <div className="teachers-profileapplications-depth5-frame12">

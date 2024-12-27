@@ -13,35 +13,46 @@ const JobPostingSchool = (props) => {
       <div className="job-posting-school-job-posting-school">
         <div className="job-posting-school-depth0-frame0">
           <div className="job-posting-school-depth1-frame0">
-            <div className="job-posting-school-depth2-frame0">
-              <img
-                alt="TeachersCabalLogog11013"
-                src="/external/teacherscaballogog11013-ccbi-200h.png"
-                className="job-posting-school-teachers-cabal-logog1"
-              />
-              <div className="job-posting-school-depth3-frame1">
-                <div className="job-posting-school-depth4-frame01">
-                  <div className="job-posting-school-depth5-frame010">
-                    <span className="job-posting-school-text10">Jobs</span>
-                  </div>
-                  <div className="job-posting-school-depth5-frame1">
-                    <span className="job-posting-school-text11">Schools</span>
-                  </div>
-                  <div className="job-posting-school-depth5-frame2">
-                    <span className="job-posting-school-text12">
-                      Applications
-                    </span>
-                  </div>
+
+          <div className="landing-page-depth2-frame0">
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
+              <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                    <a href='' className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">About</span>
+                  </a>
                 </div>
-                <div className="job-posting-school-depth4-frame11">
-                  <div className="job-posting-school-depth5-frame011">
-                    <span className="job-posting-school-text13">
-                      Post a Job
-                    </span>
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
+                  </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="job-posting-school-depth2-frame1">
               <div className="job-posting-school-depth3-frame0">
                 <div className="job-posting-school-depth4-frame02">
@@ -66,11 +77,7 @@ const JobPostingSchool = (props) => {
                         Job title*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame12">
-                      <span className="job-posting-school-text17">
-                        e.g. High School Chemistry Teacher
-                      </span>
-                    </div>
+                    <input type='text' placeholder='e.g. High School Chemistry Teacher' className="job-posting-school-depth6-frame12" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame2">
@@ -80,7 +87,7 @@ const JobPostingSchool = (props) => {
                         Job description*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame13"></div>
+                    <input type='text' placeholder='Include job duties, qualifications, and experience needed...' className="job-posting-school-depth6-frame12" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame3">
@@ -90,17 +97,7 @@ const JobPostingSchool = (props) => {
                         Qualifications*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame14">
-                      <img
-                        alt="Vector09919"
-                        src="/external/vector09919-ia4b.svg"
-                        className="job-posting-school-vector01"
-                      />
-                      <span className="job-posting-school-text20">
-                        e.g. Bachelor&apos;s degree in subject area or related
-                        field, teaching certification
-                      </span>
-                    </div>
+                    <input type='text' placeholder='e.g Bsc in Computer Science...' className="job-posting-school-depth6-frame14" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame4">
@@ -110,16 +107,13 @@ const JobPostingSchool = (props) => {
                         Salary range*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame15">
-                      <img
-                        alt="Vector09920"
-                        src="/external/vector09920-w7jc.svg"
-                        className="job-posting-school-vector02"
-                      />
-                      <span className="job-posting-school-text22">
-                        e.g. $60,000 - $80,000
-                      </span>
-                    </div>
+                    <select className="job-posting-school-depth6-frame15">
+                      <option value="50,000-100,000">₦50,000 - ₦100,000</option>
+                      <option value="100,001-150,000">₦100,001 - ₦150,000</option>
+                      <option value="150,001-200,000">₦150,001 - ₦200,000</option>
+                      <option value="200,001-250,000">₦200,001 - ₦250,000</option>
+                      <option value="250,001-above">₦250,001 and above</option>
+                    </select>
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame5">
@@ -129,16 +123,7 @@ const JobPostingSchool = (props) => {
                         Subject area*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame16">
-                      <img
-                        alt="Vector09921"
-                        src="/external/vector09921-ie5e.svg"
-                        className="job-posting-school-vector03"
-                      />
-                      <span className="job-posting-school-text24">
-                        e.g. Science, Math, English, History
-                      </span>
-                    </div>
+                    <input type='text' placeholder='e.g. Science, Math, English, History' className="job-posting-school-depth6-frame16" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame6">
@@ -148,16 +133,7 @@ const JobPostingSchool = (props) => {
                         Location*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame17">
-                      <img
-                        alt="Vector09921"
-                        src="/external/vector09921-33u.svg"
-                        className="job-posting-school-vector04"
-                      />
-                      <span className="job-posting-school-text26">
-                        City, State
-                      </span>
-                    </div>
+                    <input type='text' placeholder='City, State' className="job-posting-school-depth6-frame17" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame7">
@@ -167,16 +143,7 @@ const JobPostingSchool = (props) => {
                         Contract type*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame18">
-                      <img
-                        alt="Vector09922"
-                        src="/external/vector09922-vg3m.svg"
-                        className="job-posting-school-vector05"
-                      />
-                      <span className="job-posting-school-text28">
-                        Full time, Part time, Contract
-                      </span>
-                    </div>
+                    <input type='text' placeholder='Full time, Part time, Contract' className="job-posting-school-depth6-frame18" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame8">
@@ -186,17 +153,7 @@ const JobPostingSchool = (props) => {
                         Benefits*
                       </span>
                     </div>
-                    <div className="job-posting-school-depth6-frame19">
-                      <img
-                        alt="Vector09923"
-                        src="/external/vector09923-rdy.svg"
-                        className="job-posting-school-vector06"
-                      />
-                      <span className="job-posting-school-text30">
-                        Health insurance, Paid time off, Professional
-                        development, Wellness programs
-                      </span>
-                    </div>
+                    <input type='text' placeholder='Health insurance, Paid time off, Professional development...' className="job-posting-school-depth6-frame19" />
                   </div>
                 </div>
                 <div className="job-posting-school-depth4-frame9">

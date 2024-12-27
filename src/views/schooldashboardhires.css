@@ -1,5 +1,5 @@
 .schooldashboardhires-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -8,7 +8,7 @@
 }
 .schooldashboardhires-schooldashboardhires {
   width: 100%;
-  height: auto;
+  height: 800px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -23,6 +23,9 @@
   flex-direction: column;
   background-color: rgba(247, 249, 252, 1);
 }
+.schooldashboardhires-depth3-frame2{
+  margin-left: -2em;
+}
 .schooldashboardhires-depth1-frame0 {
   display: flex;
   align-self: stretch;
@@ -30,6 +33,7 @@
   flex-direction: column;
 }
 .schooldashboardhires-depth2-frame0 {
+  margin-top: 5em;
   gap: 4px;
   display: flex;
   padding: 20px 24px;
@@ -365,6 +369,7 @@
   text-decoration: none;
 }
 .schooldashboardhires-depth5-frame12 {
+  cursor: pointer;
   height: 40px;
   display: flex;
   padding: 0 16px;
@@ -374,6 +379,27 @@
   border-radius: 12px;
   justify-content: center;
   background-color: rgba(232, 234, 242, 1);
+}
+.hiresContainer{
+  height: 500px;
+  overflow-y: scroll;
+  width: 100%;
+}
+.hiresContainer::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+.hiresContainer::-webkit-scrollbar-track {
+  background: lightgray; /* Scrollbar track color */
+}
+
+.hiresContainer::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.hiresContainer::-webkit-scrollbar-thumb:hover {
+  background: darkblue; /* Thumb color on hover */
 }
 .schooldashboardhires-depth6-frame014 {
   display: flex;

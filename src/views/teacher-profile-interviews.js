@@ -33,9 +33,9 @@ const TeacherProfileInterviews = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                  <div className="landing-page-depth5-frame3">
-                    <span className="landing-page-text13">Community</span>
-                  </div>
+                    <a href='' className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">About</span>
+                  </a>
                 </div>
                 <div className="landing-page-depth4-frame11">
                   <div className="landing-page-depth5-frame02">
@@ -56,7 +56,7 @@ const TeacherProfileInterviews = (props) => {
             
             <div className="teacher-profile-interviews-depth2-frame0">
         
-            <div className="teachers-dashboard-frames">
+            <div className="teachers-dashboard-frames0">
                 <div className="teachers-dashboard-framelevel2">
                   <img
                     alt="Rectangle8388"
@@ -132,6 +132,7 @@ const TeacherProfileInterviews = (props) => {
                 </a>
               </div>
 
+              
               <div className="teacher-profile-interviews-depth3-frame1">
                 <div className="teacher-profile-interviews-depth4-frame0">
                   <div className="teacher-profile-interviews-depth5-frame01">
@@ -163,6 +164,36 @@ const TeacherProfileInterviews = (props) => {
                     </div>
                   </div>
 
+                  <div className="teacher-profile-interviews-depth4-frame2">
+                    <div className="teacher-profile-interviews-depth5-frame02"></div>
+                    <div className="teacher-profile-interviews-depth5-frame11">
+                      <div className="teacher-profile-interviews-depth6-frame03">
+                        <span className="teacher-profile-interviews-text21">
+                          Crestview Elementary
+                        </span>
+                      </div>
+                      <div className="teacher-profile-interviews-depth6-frame12">
+                        <span className="teacher-profile-interviews-text22">
+                          4th grade teacher
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="teacher-profile-interviews-depth4-frame2">
+                    <div className="teacher-profile-interviews-depth5-frame02"></div>
+                    <div className="teacher-profile-interviews-depth5-frame11">
+                      <div className="teacher-profile-interviews-depth6-frame03">
+                        <span className="teacher-profile-interviews-text21">
+                          Crestview Elementary
+                        </span>
+                      </div>
+                      <div className="teacher-profile-interviews-depth6-frame12">
+                        <span className="teacher-profile-interviews-text22">
+                          4th grade teacher
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                   <div className="teacher-profile-interviews-depth4-frame3">
                     <div className="teacher-profile-interviews-depth5-frame03"></div>
                     <div className="teacher-profile-interviews-depth5-frame12">
@@ -241,14 +272,61 @@ const TeacherProfileInterviews = (props) => {
                     </div>
                   </div>
                 </div>
+              </div>
 
+             <div className='container'>
                 <div className="teacher-profile-interviews-depth4-frame6">
-                  <span className="teacher-profile-interviews-text29">
+                  <span className="teacher-profile-interviews-text19">
                     Completed (3)
                   </span>
                 </div>
 
-                <div className='slider-interview-second'>
+                <div className='slider-interview00'>
+                  <div className="teacher-profile-interviews-depth4-frame7">
+                    <div className="teacher-profile-interviews-depth5-frame06"></div>
+                    <div className="teacher-profile-interviews-depth5-frame15">
+                      <div className="teacher-profile-interviews-depth6-frame07">
+                        <span className="teacher-profile-interviews-text30">
+                          Oakridge Prep
+                        </span>
+                      </div>
+                      <div className="teacher-profile-interviews-depth6-frame16">
+                        <span className="teacher-profile-interviews-text31">
+                          History teacher
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="teacher-profile-interviews-depth4-frame7">
+                    <div className="teacher-profile-interviews-depth5-frame06"></div>
+                    <div className="teacher-profile-interviews-depth5-frame15">
+                      <div className="teacher-profile-interviews-depth6-frame07">
+                        <span className="teacher-profile-interviews-text30">
+                          Oakridge Prep
+                        </span>
+                      </div>
+                      <div className="teacher-profile-interviews-depth6-frame16">
+                        <span className="teacher-profile-interviews-text31">
+                          History teacher
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="teacher-profile-interviews-depth4-frame7">
+                    <div className="teacher-profile-interviews-depth5-frame06"></div>
+                    <div className="teacher-profile-interviews-depth5-frame15">
+                      <div className="teacher-profile-interviews-depth6-frame07">
+                        <span className="teacher-profile-interviews-text30">
+                          Oakridge Prep
+                        </span>
+                      </div>
+                      <div className="teacher-profile-interviews-depth6-frame16">
+                        <span className="teacher-profile-interviews-text31">
+                          History teacher
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                   <div className="teacher-profile-interviews-depth4-frame7">
                     <div className="teacher-profile-interviews-depth5-frame06"></div>
                     <div className="teacher-profile-interviews-depth5-frame15">
@@ -339,8 +417,8 @@ const TeacherProfileInterviews = (props) => {
                       </div>
                     </div>
                   </div>
-                  </div>
-              </div>
+                </div>
+                </div>
             </div>
           </div>
         </div>

@@ -54,6 +54,9 @@ body {
   border-width: 0 0 1px;
   justify-content: space-between;
   background-color: #f7f9f9;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 .landing-page-teachers-cabal-logog1 {
   width: 210px;
@@ -206,6 +209,7 @@ body {
   text-decoration: none;
 }
 .landing-page-depth2-frame1 {
+  margin-top: 5em;
   display: flex;
   padding: 20px 50px;
   flex-grow: 1;

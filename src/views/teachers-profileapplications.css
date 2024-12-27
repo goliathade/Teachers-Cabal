@@ -34,6 +34,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: center;
+  margin-top: 5em;
 }
 .teachers-profileapplications-frames1 {
   height: 760px;
@@ -482,9 +483,33 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.slider{
+.slider1{
   height: 400px;
   width: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.slider1 {
+  scrollbar-color: blue lightgray; /* scrollbar-thumb and scrollbar-track colors */
+  scrollbar-width: thin; /* Thin scrollbar */
+}
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+.slider1::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+.slider1::-webkit-scrollbar-track {
+  background: lightgray; /* Scrollbar track color */
+}
+
+.slider1::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.slider1::-webkit-scrollbar-thumb:hover {
+  background: darkblue; /* Thumb color on hover */
 }
 .teachers-profileapplications-text23 {
   color: rgba(12, 22, 28, 1);

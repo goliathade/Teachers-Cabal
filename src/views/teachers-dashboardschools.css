@@ -31,6 +31,7 @@
 }
 .teachers-dashboardschools-depth2-frame0 {
   gap: 4px;
+  margin-top: 5em;
   display: flex;
   padding: 20px 24px;
   flex-grow: 1;
@@ -345,15 +346,59 @@
   height: 650px;
 }
 .slider{
-  height: 650px;
+  height: 530px;
   overflow-y: scroll;
   scroll-behavior: smooth;
+}
+.slider {
+  scrollbar-color: blue lightgray; /* scrollbar-thumb and scrollbar-track colors */
+  scrollbar-width: thin; /* Thin scrollbar */
+}
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+.slider::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+.slider::-webkit-scrollbar-track {
+  background: lightgray; /* Scrollbar track color */
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.slider::-webkit-scrollbar-thumb:hover {
+  background: darkblue; /* Thumb color on hover */
 }
 .slider-explore{
   height: 650px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   width: 100%;
+}
+.slider-explore {
+  scrollbar-color: blue lightgray; /* scrollbar-thumb and scrollbar-track colors */
+  scrollbar-width: thin; /* Thin scrollbar */
+}
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+.slider-explore::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+.slider-explore::-webkit-scrollbar-track {
+  background: lightgray; /* Scrollbar track color */
+}
+
+.slider-explore::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.slider-explore::-webkit-scrollbar-thumb:hover {
+  background: darkblue; /* Thumb color on hover */
 }
 .teachers-dashboardschools-depth4-frame01 {
   display: flex;

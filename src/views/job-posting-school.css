@@ -1,5 +1,5 @@
 .job-posting-school-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -139,6 +139,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth2-frame1 {
+  margin-top: 5em;
   display: flex;
   padding: 20px 160px 20px 30px;
   flex-grow: 1;
@@ -245,6 +246,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame12 {
+  width: 600px;
   display: flex;
   padding: 16px;
   overflow: hidden;
@@ -347,8 +349,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
+select{
+  font-family: Lexend;
+}
 .job-posting-school-depth6-frame14 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -416,7 +421,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame15 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -486,7 +491,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame16 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -555,7 +560,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame17 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -624,7 +629,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame18 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -693,7 +698,7 @@
   text-decoration: none;
 }
 .job-posting-school-depth6-frame19 {
-  width: 448px;
+  width: 600px;
   height: 56px;
   display: flex;
   padding: 16px;
@@ -727,12 +732,13 @@
   text-decoration: none;
 }
 .job-posting-school-depth4-frame9 {
+  cursor: pointer;
   display: flex;
   padding: 12px 16px;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .job-posting-school-depth5-frame021 {
   height: 40px;

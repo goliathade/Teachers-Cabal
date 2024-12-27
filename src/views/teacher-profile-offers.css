@@ -1,5 +1,5 @@
 .teacher-profile-offers-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -36,6 +36,7 @@
   flex-grow: 1;
   align-self: stretch;
   align-items: flex-start;
+  margin-top: 5em;
   justify-content: center;
 }
 .teacher-profile-offers-depth3-frame2 {
@@ -56,6 +57,39 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: rgba(247, 249, 249, 1);
+}
+.slider-offers{
+  width: 100%;
+}
+.slider-two{
+  width: 100%;
+}
+.sliderContainer{
+  height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.sliderContainer {
+  scrollbar-color: blue lightgray; /* scrollbar-thumb and scrollbar-track colors */
+  scrollbar-width: thin; /* Thin scrollbar */
+}
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+.sliderContainer::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+.sliderContainer::-webkit-scrollbar-track {
+  background: lightgray; /* Scrollbar track color */
+}
+
+.sliderContainer::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.sliderContainer::-webkit-scrollbar-thumb:hover {
+  background: darkblue; /* Thumb color on hover */
 }
 .teacher-profile-offers-framelevel2 {
   gap: 16px;

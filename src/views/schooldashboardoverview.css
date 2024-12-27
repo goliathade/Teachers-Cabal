@@ -37,6 +37,7 @@
   align-self: stretch;
   align-items: flex-start;
   justify-content: center;
+  margin-top: 5em;
 }
 .schooldashboardoverview-depth3-frame01 {
   width: 320px;
@@ -47,7 +48,6 @@
   flex-direction: column;
 }
 .schooldashboardoverview-depth3-frame02 {
-  width: 320px;
   height: 762px;
   display: flex;
   overflow: hidden;
@@ -316,9 +316,10 @@
   text-decoration: none;
 }
 .schooldashboardoverview-depth6-frame013 {
+  position: relative;
+  bottom: 5em;
   gap: 12px;
   display: flex;
-  padding: 8px 12px;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;

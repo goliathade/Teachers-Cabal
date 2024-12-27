@@ -1,5 +1,5 @@
 .teacherapplicationpage-container {
-  width: 100%;
+  width: 1430px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -23,6 +23,9 @@
   flex-direction: column;
   background-color: rgba(247, 249, 249, 1);
 }
+input{
+  font-family: Lexend;
+}
 .teacherapplicationpage-depth1-frame0 {
   display: flex;
   align-self: stretch;
@@ -30,6 +33,7 @@
   flex-direction: column;
 }
 .teacherapplicationpage-depth2-frame0 {
+  margin-top: 5em;
   display: flex;
   padding: 20px 160px;
   flex-grow: 1;
@@ -38,7 +42,7 @@
   justify-content: center;
 }
 .teacherapplicationpage-depth3-frame0 {
-  width: 960px;
+  width: 1200px;
   display: flex;
   padding: 20px 0;
   overflow: hidden;
@@ -979,6 +983,7 @@
   text-decoration: none;
 }
 .teacherapplicationpage-depth4-frame17 {
+  margin: 20px 0;
   gap: 16px;
   display: flex;
   padding: 0 16px;
@@ -1013,6 +1018,8 @@
 .teacherapplicationpage-depth5-frame18 {
   display: flex;
   align-items: flex-start;
+  position: relative;
+  right: 20em;
   flex-direction: column;
 }
 .teacherapplicationpage-depth6-frame033 {
@@ -1033,9 +1040,11 @@
   flex-direction: column;
 }
 .teacherapplicationpage-text36 {
+  cursor: pointer;
+  width: 100%;
   color: rgba(12, 22, 28, 1);
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   font-style: Medium;
   text-align: center;
   font-family: Lexend;
@@ -1080,6 +1089,8 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  position: relative;
+  right: 20em;
 }
 .teacherapplicationpage-depth6-frame034 {
   height: 32px;
@@ -1099,6 +1110,8 @@
   flex-direction: column;
 }
 .teacherapplicationpage-text38 {
+  cursor: pointer;
+  width: 80px;
   color: rgba(12, 22, 28, 1);
   height: auto;
   font-size: 14px;
@@ -1111,11 +1124,18 @@
   text-decoration: none;
 }
 .teacherapplicationpage-depth4-frame19 {
+  cursor: pointer;
+  margin-top: 10px;
   display: flex;
-  padding: 12px 16px;
+  padding: 12px 0;
+  width: 20px;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
+}
+input[type="file"]{
+  position: relative;
+  border: none;
 }
 .teacherapplicationpage-depth5-frame028 {
   height: 48px;

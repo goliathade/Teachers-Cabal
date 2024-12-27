@@ -30,9 +30,9 @@ const TeachersDashboardschools = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                  <div className="landing-page-depth5-frame3">
-                    <span className="landing-page-text13">Community</span>
-                  </div>
+                    <a href='' className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">About</span>
+                  </a>
                 </div>
                 <div className="landing-page-depth4-frame11">
                   <div className="landing-page-depth5-frame02">

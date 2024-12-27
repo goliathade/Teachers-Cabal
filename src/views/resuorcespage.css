@@ -44,11 +44,15 @@ body {
   flex-direction: column;
 }
 .resuorcespage-depth2-frame0 {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
   display: flex;
   padding: 12px 40px;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  background-color: white;
   border-color: rgba(229, 232, 234, 1);
   border-style: solid;
   border-width: 0 0 1px;
@@ -205,6 +209,7 @@ body {
   text-decoration: none;
 }
 .resuorcespage-depth2-frame1 {
+  margin-top: 5em;
   width: 1420px;
   display: flex;
   padding: 20px 50px;
@@ -243,8 +248,9 @@ body {
   padding: 40px;
   background: url("/external/teachersClassroom.png");
   background-size: cover;
-  border-radius: 12px;
+  border-radius: 30px;
   justify-content: flex-end;
+  object-fit: cover;
 }
 
 .resuorcespage-depth7-frame010 {
