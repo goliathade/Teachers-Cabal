@@ -32,7 +32,7 @@ const TeachersProfileapplications = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                    <a href='' className="landing-page-depth5-frame3">
+                    <a href='/about' className="landing-page-depth5-frame3">
                     <span className="landing-page-text13">About</span>
                   </a>
                 </div>

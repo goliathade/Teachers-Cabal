@@ -34,7 +34,7 @@ const SchooldashboardApplicants = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                    <a href='' className="landing-page-depth5-frame3">
+                    <a href='/about' className="landing-page-depth5-frame3">
                     <span className="landing-page-text13">About</span>
                   </a>
                 </div>
@@ -57,7 +57,7 @@ const SchooldashboardApplicants = (props) => {
               <div className="schooldashboard-applicants-depth3-frame01">
 
               <div className="schooldashboardoverview-depth3-frame02">
-                  <div className="schooldashboardoverview-depth5-frame01">
+                  <a href='/schoolProfile' className="schooldashboardoverview-depth5-frame01">
                     <div className="schooldashboardoverview-depth6-frame010"></div>
                     <div className="schooldashboardoverview-depth6-frame11">
                       <div className="schooldashboardoverview-depth7-frame01">
@@ -68,7 +68,7 @@ const SchooldashboardApplicants = (props) => {
                       </div>
                       <div className="schooldashboardoverview-depth7-frame11"></div>
                     </div>
-                  </div>
+                  </a>
                   <div className="schooldashboardoverview-depth4-frame01">
                     <div className="schooldashboardoverview-depth5-frame02">
                       <div className="schooldashboardoverview-depth6-frame011">
@@ -252,11 +252,11 @@ const SchooldashboardApplicants = (props) => {
                               2 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame62">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame62">
                             <span className="schooldashboard-applicants-text38">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame1">
                           <div className="schooldashboard-applicants-depth9-frame03">
@@ -293,11 +293,11 @@ const SchooldashboardApplicants = (props) => {
                               4 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame63">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame63">
                             <span className="schooldashboard-applicants-text45">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame2">
                           <div className="schooldashboard-applicants-depth9-frame04">
@@ -334,11 +334,11 @@ const SchooldashboardApplicants = (props) => {
                               6 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame64">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame64">
                             <span className="schooldashboard-applicants-text52">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame3">
                           <div className="schooldashboard-applicants-depth9-frame05">
@@ -375,11 +375,11 @@ const SchooldashboardApplicants = (props) => {
                               1 day ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame65">
+                          <a href='/schoolApplicants'  className="schooldashboard-applicants-depth9-frame65">
                             <span className="schooldashboard-applicants-text59">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame4">
                           <div className="schooldashboard-applicants-depth9-frame06">
@@ -416,11 +416,11 @@ const SchooldashboardApplicants = (props) => {
                               3 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame66">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame66">
                             <span className="schooldashboard-applicants-text66">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame5">
                           <div className="schooldashboard-applicants-depth9-frame07">
@@ -457,11 +457,11 @@ const SchooldashboardApplicants = (props) => {
                               5 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame67">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame67">
                             <span className="schooldashboard-applicants-text73">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                         <div className="schooldashboard-applicants-depth8-frame6">
                           <div className="schooldashboard-applicants-depth9-frame08">
@@ -498,11 +498,11 @@ const SchooldashboardApplicants = (props) => {
                               7 days ago
                             </span>
                           </div>
-                          <div className="schooldashboard-applicants-depth9-frame68">
+                          <a href='/schoolApplicants' className="schooldashboard-applicants-depth9-frame68">
                             <span className="schooldashboard-applicants-text80">
                               View profile
                             </span>
-                          </div>
+                          </a>
                         </div>
                       </div>
                     </div>

@@ -33,6 +33,7 @@
   flex-direction: column;
 }
 .school-dashboard-job-listing-depth2-frame0 {
+  height: 700px;
   gap: 4px;
   display: flex;
   padding: 20px 24px 20px 0;

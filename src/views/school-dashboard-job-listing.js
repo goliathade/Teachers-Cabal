@@ -32,7 +32,7 @@ const SchoolDashboardJobListing = (props) => {
                   <a href='/resuorcespage' className="landing-page-depth5-frame2">
                     <span className="landing-page-text12">Resources</span>
                   </a>
-                    <a href='' className="landing-page-depth5-frame3">
+                    <a href='/about' className="landing-page-depth5-frame3">
                     <span className="landing-page-text13">About</span>
                   </a>
                 </div>
@@ -57,7 +57,8 @@ const SchoolDashboardJobListing = (props) => {
             <div className="school-dashboard-job-listing-depth2-frame0">
               
             <div className="schooldashboardoverview-depth3-frame02">
-                  <div className="schooldashboardoverview-depth5-frame01">
+
+                  <a href='/schoolProfile' className="schooldashboardoverview-depth5-frame01">
                     <div className="schooldashboardoverview-depth6-frame010"></div>
                     <div className="schooldashboardoverview-depth6-frame11">
                       <div className="schooldashboardoverview-depth7-frame01">
@@ -68,7 +69,8 @@ const SchoolDashboardJobListing = (props) => {
                       </div>
                       <div className="schooldashboardoverview-depth7-frame11"></div>
                     </div>
-                  </div>
+                  </a>
+
                   <div className="schooldashboardoverview-depth4-frame01">
                     <div className="schooldashboardoverview-depth5-frame02">
                       <div className="schooldashboardoverview-depth6-frame011">

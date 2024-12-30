@@ -363,6 +363,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.fontstyle{
+  font-family: Lexend;
+}
 .landing-page-depth4-frame12 {
   gap: 40px;
   display: flex;

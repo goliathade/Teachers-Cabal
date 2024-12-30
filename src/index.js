@@ -8,8 +8,11 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import schoolApplicants from './views/schoolApplicants';
+import schoolProfile from './views/schoolProfile';
 import TeachersDashboardschools from './views/teachers-dashboardschools'
 import HelpTeachers from './views/help-teachers'
+import about from './views/about'
 import SchooldashboardApplicants from './views/schooldashboard-applicants'
 import TeacherProfileInterviews from './views/teacher-profile-interviews'
 import TeacherProfileOffers from './views/teacher-profile-offers'
@@ -60,6 +63,9 @@ const App = () => {
         <Route component={TeachersDashboard} exact path="/teachers-dashboard" />
         <Route component={Schooldashboardoverview} exact path="/schooldashboardoverview" />
         <Route component={ATSResumebuilder} exact path="/ats-resumebuilder" />
+        <Route component={about} exact path ="/about"/>
+        <Route component={schoolApplicants} exact path ="/schoolApplicants"/>
+        <Route component={schoolProfile} exact path ="/schoolProfile"/>
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
