@@ -60,7 +60,7 @@
 
 .slider-interview{
   height: 490px;
-  width: 100%;
+  width: 400px;
   overflow-y: scroll;
   margin-top: 10px;
 }
@@ -123,7 +123,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
-  background-color: rgba(247, 249, 249, 1);
+  background-color: #f7f9fb;
 }
 .teacher-profile-interviews-framelevel2 {
   gap: 16px;

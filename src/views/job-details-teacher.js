@@ -49,6 +49,46 @@ const JobFinderPage = () => {
   return (
     <div className="job-finder-page">
       <div className="content-container">
+        
+      <div className="landing-page-depth2-frame0">
+              <a href='/'>
+                <img
+                  alt="TeachersCabalLogog19019"
+                  style={{ width: '100px', height: 'auto' }}
+                  src="external/teacherscaballogog13414-vdvl-200h.png"
+                  className="landing-page-teachers-cabal-logog1"
+                />
+              </a>
+              <div className="landing-page-depth3-frame1">
+                <div className="landing-page-depth4-frame01">
+                  <a href='/teacherlogin' className="landing-page-depth5-frame01">
+                    <span className="landing-page-text10">Find a Job</span>
+                  </a>
+                  <a href='/schoollogin' className="landing-page-depth5-frame11">
+                    <span className="landing-page-text11">Post a Job</span>
+                  </a>
+                  <a href='/resuorcespage' className="landing-page-depth5-frame2">
+                    <span className="landing-page-text12">Resources</span>
+                  </a>
+                  <a href='/about' className="landing-page-depth5-frame3">
+                    <span className="landing-page-text13">About</span>
+                  </a>
+                </div>
+                <div className="landing-page-depth4-frame11">
+                  <div className="landing-page-depth5-frame02">
+                    <a href='#' className="landing-page-depth6-frame01">
+                      <span className="landing-page-text14">Log in</span>
+                    </a>
+                  </div>
+                  <div className="landing-page-depth5-frame12">
+                    <a href='#' className="landing-page-depth6-frame02">
+                      <span className="landing-page-text15">Sign up</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
         {/* Sidebar */}
         <aside className="sidebar">
           <div className="sidebar-section">

@@ -18,6 +18,7 @@ body {
 
 /* Sidebar */
 .sidebar {
+  margin-top: 3em;
   flex: 1;
   background: white;
   border-radius: 12px;
@@ -92,8 +93,10 @@ body {
 
 /* Main Content */
 .main-content {
+  background-color: white;
+  margin-top: 3em;
   flex: 3;
-  padding: 0 30px;
+  padding: 10px 30px;
 }
 
 /* Search Section */

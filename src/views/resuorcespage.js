@@ -350,6 +350,7 @@ const Resuorcespage = (props) => {
                           How to get a teaching job
                         </span>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -358,6 +359,43 @@ const Resuorcespage = (props) => {
           </div>
         </div>
       </div>
+
+      <footer className="text-center py-6 w-full">
+          {/* Links */}
+          <div className="flex justify-center space-x-8 text-sm text-gray-600 mb-4">
+            <a href="/privacy-policy" className="hover:underline">
+              Privacy Policy
+            </a>
+            <a href="/terms-of-service" className="hover:underline">
+              Terms of Service
+            </a>
+            <a href="/contact-us" className="hover:underline">
+              Contact Us
+            </a>
+          </div>
+
+          {/* Social Icons */}
+          <div className="flex justify-center space-x-6 text-gray-600 mb-4">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <div className="text-sm text-gray-500">
+            © 2024 Teachers Cabal. All rights reserved.
+          </div>
+        </footer>
+        
     </div>
   )
 }

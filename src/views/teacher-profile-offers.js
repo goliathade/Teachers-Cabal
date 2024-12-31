@@ -147,7 +147,7 @@ const TeacherProfileOffers = (props) => {
                   </span>
                 </div>
 
-                <div className='sliderContainer'>
+              <div className='sliderContainer'>
                 <div className='slider-offers'>
                   <div className="teacher-profile-offers-depth4-frame2">
                     <div className="teacher-profile-offers-depth5-frame02">
@@ -340,6 +340,58 @@ const TeacherProfileOffers = (props) => {
                       </div>
                     </div>
                   </div>
+                  <div className="teacher-profile-offers-depth4-frame6">
+                    <div className="teacher-profile-offers-depth5-frame05">
+                      <div className="teacher-profile-offers-depth6-frame018"></div>
+                      <div className="teacher-profile-offers-depth6-frame15">
+                        <div className="teacher-profile-offers-depth7-frame019">
+                          <span className="teacher-profile-offers-text28">
+                            Oakland Unified School District
+                          </span>
+                        </div>
+                        <div className="teacher-profile-offers-depth7-frame116">
+                          <span className="teacher-profile-offers-text29">
+                            Math Teacher, Full Time, $80,000/year
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teacher-profile-offers-depth5-frame14">
+                      <div className="teacher-profile-offers-depth6-frame019">
+                        <img
+                          alt="Depth7Frame08373"
+                          src="/external/depth7frame08373-9tf.svg"
+                          className="teacher-profile-offers-depth7-frame020"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="teacher-profile-offers-depth4-frame6">
+                    <div className="teacher-profile-offers-depth5-frame05">
+                      <div className="teacher-profile-offers-depth6-frame018"></div>
+                      <div className="teacher-profile-offers-depth6-frame15">
+                        <div className="teacher-profile-offers-depth7-frame019">
+                          <span className="teacher-profile-offers-text28">
+                            Oakland Unified School District
+                          </span>
+                        </div>
+                        <div className="teacher-profile-offers-depth7-frame116">
+                          <span className="teacher-profile-offers-text29">
+                            Math Teacher, Full Time, $80,000/year
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="teacher-profile-offers-depth5-frame14">
+                      <div className="teacher-profile-offers-depth6-frame019">
+                        <img
+                          alt="Depth7Frame08373"
+                          src="/external/depth7frame08373-9tf.svg"
+                          className="teacher-profile-offers-depth7-frame020"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <div className="teacher-profile-offers-depth4-frame7">
                     <div className="teacher-profile-offers-depth5-frame06">
                       <div className="teacher-profile-offers-depth6-frame020"></div>
@@ -445,7 +497,8 @@ const TeacherProfileOffers = (props) => {
                     </div>
                   </div>
                 </div>
-                </div>
+                
+              </div>
 
                 
               </div>
