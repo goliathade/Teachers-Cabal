@@ -1,0 +1,90 @@
+Here's a brief example of how to save the job posting form inputs to a MySQL database 'ats_db' using PHP and PLI:
+
+
+_config.php_
+
+
+```
+<?php
+$host = 'localhost';
+$username = 'your_username';
+$password = 'your_password';
+$dbname = 'ats_db';
+
+$conn = new mysqli($host, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+```
+
+
+_job_posting.php_
+
+
+```
+<?php
+include 'config.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $title = $_POST["title"];
+    $des = $_POST["des"];
+    $req = $_POST["req"];
+    $subject = $_POST["subject"];
+    $location = $_POST["location"];
+    $salary = $_POST["salary"];
+
+    $sql = "INSERT INTO job_postings (title, des, req, subject, location, salary) VALUES ('$title', '$des', '$req', '$subject', '$location', '$salary')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Job posting saved successfully!";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+?>
+
+<form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">
+    <label>Title:</label>
+    <input type="text" name="title"><br><br>
+    <label>Description:</label>
+    <textarea name="des"></textarea><br><br>
+    <label>Requirements:</label>
+    <textarea name="req"></textarea><br><br>
+    <label>Subject:</label>
+    <input type="text" name="subject"><br><br>
+    <label>Location:</label>
+    <input type="text" name="location"><br><br>
+    <label>Salary:</label>
+    <input type="text" name="salary"><br><br>
+    <input type="submit" value="Post Job">
+</form>
+```
+
+
+_display_job_postings.php_
+
+
+```
+<?php
+include 'config.php';
+
+$sql = "SELECT * FROM job_postings";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo "Title: " . $row["title"]. "<br>";
+        echo "Description: " . $row["des"]. "<br>";
+        echo "Requirements: " . $row["req"]. "<br>";
+        echo "Subject: " . $row["subject"]. "<br>";
+        echo "Location: " . $row["location"]. "<br>";
+        echo "Salary: " . $row["salary"]. "<br><br>";
+    }
+} else {
+    echo "No job postings found.";
+}
+$conn->close();
+?>
+```
