@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title> Teachers cabal</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+
+  <body>
+    <header class="flex sticky top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
+        <div class="flex items-center gap-4 text-[#1C1D22]">
+          <a href="index.html"><img src="image/teacherscaballogo.png" width="100px" alt="" srcset=""></a>
+        </div>
+        <div class="flex flex-1 justify-end gap-8">
+          <div class="flex items-center gap-9">
+            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="teacherlogin.html">Find a Job</a>
+            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="schoollogin.html">Post a Job</a>
+            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="resources.html">Resources</a>
+            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="about.html">About</a>
+          </div>
+          <div class="flex gap-2">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Log In</span>
+            </button>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#EEEFF2] text-[#1C1D22] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Sign Up</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+        <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
+            <div class="flex justify-center">
+                <img src="image/teacherscaballogo.png" alt="Teachers Cabal Logo" class="w-20" />
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-[#1C1D22] text-[24px] font-bold">Forgot your password?</p>
+                <p class="text-[#3C3F4A] text-sm">We've got you covered</p>
+            </div>
+    
+            <div class="flex flex-col gap-4 mt-6">
+                <label class="flex flex-col">
+                    <span class="text-[#1C1D22] text-base font-medium py-2">Email</span>
+                    <input type="email" placeholder="Enter your email" 
+                        class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
+                </label>
+            </div>
+    
+            <button class="w-full h-12 mt-4 bg-[#607AFB] text-white rounded-lg font-bold tracking-wide">
+                Submit
+            </button>
+    
+            <p class="text-center text-sm text-[#3C3F4A] mt-4">
+                Remembered your password? <a href="teacherlogin.html" class="underline text-[#607AFB] cursor-pointer">Login</a>
+            </p>
+        </div>
+    </div>
+    
+      
+  </body>
+</html>

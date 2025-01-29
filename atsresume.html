@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ATS Resume Builder</title>
+</head>
+
+<body class="bg-gray-100 flex justify-center p-4">
+
+    <div class="w-full max-w-3xl bg-white p-6 rounded-lg shadow-lg items-center justify-center">
+        <h2 class="text-2xl font-bold text-center">Advanced ATS Resume Builder</h2>
+        <p class="text-center text-gray-600 mb-4">Create your resume and download it in PDF format for free</p>
+        
+        <form id="resumeForm">
+            <div class="grid grid-cols-1 gap-4">
+                <input type="text" placeholder="Full Name" class="p-2 border rounded w-full">
+                <input type="email" placeholder="Email" class="p-2 border rounded w-full">
+                <input type="tel" placeholder="Phone Number" class="p-2 border rounded w-full">
+                <input type="number" placeholder="Age" class="p-2 border rounded w-full">
+                <input type="text" placeholder="Address" class="p-2 border rounded w-full">
+                <textarea placeholder="Professional Summary" class="p-2 border rounded w-full"></textarea>
+                <input type="text" placeholder="Field of Study" class="p-2 border rounded w-full">
+                <textarea placeholder="Teaching Certifications" class="p-2 border rounded w-full"></textarea>
+                <input type="file" class="p-2 border rounded w-full">
+                <textarea placeholder="Relevant Coursework/Development" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Leadership/Mentorship Experience" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Subject(s) Area Expertise" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Relevant Skills" class="p-2 border rounded w-full"></textarea>
+                <input type="file" class="p-2 border rounded w-full">
+                <select class="p-2 border rounded w-full">
+                    <option>Experience Level</option>
+                </select>
+                <select class="p-2 border rounded w-full">
+                    <option>Years of Experience</option>
+                </select>
+            </div>
+            
+            <div id="workExperienceSection" class="mt-4">
+                <h3 class="text-lg font-semibold">Work Experience</h3>
+            </div>
+            <button type="button" onclick="addWorkExperience()" class="bg-blue-500 text-white p-2 rounded w-full mt-2">Add Work Experience</button>
+            
+            <div id="educationSection" class="mt-4">
+                <h3 class="text-lg font-semibold">Education</h3>
+            </div>
+            <button type="button" onclick="addEducation()" class="bg-blue-500 text-white p-2 rounded w-full mt-2">Add Education</button>
+            
+            <button type="submit" class="bg-green-500 text-white p-3 rounded w-full mt-4">Create Resume</button>
+        </form>
+    </div>
+
+
+    <script>
+        function addWorkExperience() {
+            const section = document.getElementById('workExperienceSection');
+            const div = document.createElement('div');
+            div.classList.add("p-2", "border", "rounded", "mt-2", "relative");
+            div.innerHTML = `
+                <input type="text" placeholder="Company" class="p-2 border rounded w-full mb-2">
+                <input type="text" placeholder="Role" class="p-2 border rounded w-full mb-2">
+                <input type="text" placeholder="Years Worked" class="p-2 border rounded w-full">
+                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Remove</button>
+            `;
+            section.appendChild(div);
+        }
+
+        function addEducation() {
+            const section = document.getElementById('educationSection');
+            const div = document.createElement('div');
+            div.classList.add("p-2", "border", "rounded", "mt-2", "relative");
+            div.innerHTML = `
+                <input type="text" placeholder="School" class="p-2 border rounded w-full mb-2">
+                <input type="text" placeholder="Degree" class="p-2 border rounded w-full mb-2">
+                <input type="text" placeholder="Major" class="p-2 border rounded w-full mb-2">
+                <input type="text" placeholder="Graduation Date" class="p-2 border rounded w-full">
+                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Remove</button>
+            `;
+            section.appendChild(div);
+        }
+    </script>
+
+</body>
+</html>
