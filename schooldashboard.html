@@ -1,12 +1,17 @@
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-    <link
+   <link
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
     />
+
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs"/>
+     <!-- fontawesome -->
 
     <title>Teachers cabal</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
@@ -18,32 +23,55 @@
       <div class="layout-container flex h-full grow flex-col">
 
         <header class=" flex fixed w-full top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
-            <div class="flex items-center gap-4 text-[#1C1D22]">
-              <a href="index.html"><img src="image/teacherscaballogo.png" width="100px" alt="" srcset=""></a>
-            </div>
+          <div class="flex items-center gap-4 text-[#1C1D22]">
+            <a href="index.html"><img src="image/teacherscaballogo.png" width="100px" alt="" srcset=""></a>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
             <div class="flex flex-1 justify-end gap-8">
-              <div class="flex items-center gap-9">
-                <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="teacherlogin.html">Find a Job</a>
-                <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="schoollogin.html">Post a Job</a>
-                <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="resources.html">Resources</a>
-                <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="about.html">About</a>
-              </div>
+              <label class="flex flex-col min-w-40 !h-10 max-w-64">
+                <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                  <div
+                    class="text-[#3E4D5B] flex border-none bg-[#F0F2F5] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#141414] focus:outline-0 focus:ring-0 border-none bg-[#F0F2F5] focus:border-none h-full placeholder:text-[#3E4D5B] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
               <div class="flex gap-2">
                 <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em]"
+                  class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#F0F2F5] text-[#141414] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
                 >
-                  <a href="" class="truncate">Log In</a>
+                  <div class="text-[#141414]" data-icon="Bell" data-size="20px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                      ></path>
+                    </svg>
+                  </div>
                 </button>
-                <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#EEEFF2] text-[#1C1D22] text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <a href="" class="truncate">Sign Up</a>
-                </button>
+              
               </div>
             </div>
-          </header>
+            <div class="flex gap-2">
+              <a href="schooldashboard.html" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/002997df-a562-40c5-aec4-f0394b79f427.png");'></a href="teachersdashboard.html">
+          
+            </div>
+          </div>
+        </header>
 
-        <div class="gap-1 px-5 flex flex-1 justify-center py-5">
+        <div class="gap-1 px-5 mt-20 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col w-50">
             <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#FFFFFF] py-4">
               <div class="flex flex-col gap-4">
@@ -52,70 +80,57 @@
                     class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
                     style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0cfc41ee-3903-4348-b7c3-04e49369bbc8.png");'
                   ></div>
-                  <h1 class="text-[#1C160C] text-base font-medium leading-normal">Oakland Unified School District</h1>
+                  <div>
+                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">Oakland Unified School District</h1>
+                    <p class="text-[#3E4D5B] text-sm font-normal leading-normal">Manage your school</p>
+                  </div>
                 </div>
                 <div class="flex flex-col gap-2">
-                  <div class="flex items-center gap-3 px-3 py-2 rounded-full bg-[#F4EFE6]">
-                    <div class="text-[#1C160C]" data-icon="Sidebar" data-size="24px" data-weight="fill">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM64,152H48a8,8,0,0,1,0-16H64a8,8,0,0,1,0,16Zm0-32H48a8,8,0,0,1,0-16H64a8,8,0,0,1,0,16Zm0-32H48a8,8,0,0,1,0-16H64a8,8,0,0,1,0,16ZM216,200H88V56H216V200Z"
-                        ></path>
-                      </svg>
+                  <a href="schooldashboard.html" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#F4EFE6] hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                    <div class="text-[#1C160C]" data-icon="Gauge" data-size="24px" data-weight="regular">
+                      <i class="fa-solid fa-chart-simple"></i>
                     </div>
-                    <p class="text-[#1C160C] text-sm font-medium leading-normal">Overview</p>
-                  </div>
-                  <div class="flex items-center gap-3 px-3 py-2">
-                    <div class="text-[#1C160C]" data-icon="ListMagnifyingGlass" data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64Zm8,72h72a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Zm88,48H40a8,8,0,0,0,0,16h88a8,8,0,0,0,0-16Zm109.66,13.66a8,8,0,0,1-11.32,0L206,177.36A40,40,0,1,1,217.36,166l20.3,20.3A8,8,0,0,1,237.66,197.66ZM184,168a24,24,0,1,0-24-24A24,24,0,0,0,184,168Z"
-                        ></path>
-                      </svg>
+                    <p class="text-[#1C160C] text-sm font-medium leading-normal">Dashboard</p>
+                  </a>
+                  <a href="schoolListings.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                    <div class="text-[#1C160C]" data-icon="Chalkboard" data-size="24px" data-weight="regular">
+                      <i class="fa-solid fa-list"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Listings</p>
-                  </div>
-                  <div class="flex items-center gap-3 px-3 py-2">
-                    <div class="text-[#1C160C]" data-icon="GooglePlayLogo" data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M223.82,114.19,56,18.16a16,16,0,0,0-16.12,0A15.68,15.68,0,0,0,32,31.87V224.13a15.68,15.68,0,0,0,7.92,13.67,16,16,0,0,0,16.12,0l167.78-96a15.75,15.75,0,0,0,0-27.62ZM48,212.67V43.33L132.69,128Zm96-73.36,18.92,18.92-88.5,50.66ZM74.4,47.1l88.53,50.67L144,116.69ZM177.31,150l-22-22,22-22,38.43,22Z"
-                        ></path>
-                      </svg>
+                  </a>
+                  <a href="teacherApplications.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                    <div class="text-[#1C160C]" data-icon="AppWindow" data-size="24px" data-weight="fill">
+                      <i class="fa-solid fa-people-group"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Applicants</p>
-                  </div>
-                  <div class="flex items-center gap-3 px-3 py-2">
-                    <div class="text-[#1C160C]" data-icon="BehanceLogo" data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M160,80a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H168A8,8,0,0,1,160,80Zm-24,78a42,42,0,0,1-42,42H32a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H90a38,38,0,0,1,25.65,66A42,42,0,0,1,136,158ZM40,116H90a22,22,0,0,0,0-44H40Zm80,42a26,26,0,0,0-26-26H40v52H94A26,26,0,0,0,120,158Zm128-6a8,8,0,0,1-8,8H169a32,32,0,0,0,56.59,11.2,8,8,0,0,1,12.8,9.61A48,48,0,1,1,248,152Zm-17-8a32,32,0,0,0-62,0Z"
-                        ></path>
+                  </a>
+                  <a href="teacherInterviews.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                    <div class="text-[#1C160C]" data-icon="ApplePodcastsLogo" data-size="24px" data-weight="regular">
+                      <i class="fa-solid fa-handshake"></i>
                       </svg>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Hires</p>
-                  </div>
+                  </a>
                 </div>
+
               </div>
               <div class="flex flex-col gap-4">
                 <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]"
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#00008B] hover:bg-[#000043] transition delay-150 text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]"
                 >
                   <span class="truncate">New School</span>
                 </button>
                 <div class="flex flex-col gap-1">
-                  <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="flex items-center gap-3 px-3 py-2 cursor-pointer">
                     <div class="text-[#1C160C]" data-icon="SignOut" data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M112,216a8,8,0,0,1-8,8H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32h56a8,8,0,0,1,0,16H48V208h56A8,8,0,0,1,112,216Zm109.66-93.66-40-40a8,8,0,0,0-11.32,11.32L196.69,120H104a8,8,0,0,0,0,16h92.69l-26.35,26.34a8,8,0,0,0,11.32,11.32l40-40A8,8,0,0,0,221.66,122.34Z"
-                        ></path>
-                      </svg>
+                      <i class="fa-solid fa-right-from-bracket"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Logout</p>
                   </div>
                 </div>
+
               </div>
+              
             </div>
           </div>
 
@@ -183,5 +198,9 @@
         </div>
       </div>
     </div>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5197b4b13e.js" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+
   </body>
 </html>
