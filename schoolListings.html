@@ -98,7 +98,7 @@
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Listings</p>
                   </a>
-                  <a href="teacherApplications.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="schoolApplicants.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="AppWindow" data-size="24px" data-weight="fill">
                       <i class="fa-solid fa-people-group"></i>
                     </div>
@@ -151,18 +151,13 @@
                     class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#F0F2F5] text-[#141414] pr-2 gap-1 text-sm font-medium leading-normal w-fit"
                   >
                     <div class="text-[#141414]" data-icon="Star" data-size="18px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
-                        ></path>
-                      </svg>
+                        <i class="fa-solid fa-star text-[#FDDC5C] hover:text-[#EFBF04]"></i>
                     </div>
                     <span class="truncate">Feature this listing</span>
                   </button>
-                </div>
-                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1" style='background-image: url("undefined");'></div>
-                
+                </div>                
               </div>
+
             </div>
             <div class="px-4 py-3">
               <label class="flex flex-col min-w-40 h-12 w-full">
@@ -216,84 +211,143 @@
               </div>
             </div>
             <div class="px-4 py-3 @container">
-              <div class="flex overflow-hidden rounded-xl border border-[#DBE1E6] bg-[#FFFFFF]">
+              <div class="flex overflow-scroll rounded-xl border border-[#DBE1E6] bg-[#FFFFFF] h-[19rem]">
                 <table class="flex-1">
-                  <thead>
-                    <tr class="bg-[#FFFFFF]">
-                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 px-4 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
+                  <thead class="sticky top-0 z-5">
+                    <tr class="bg-[#FFFFFF] z-1 border-2 rounded-t-lg w-[58em] border-b-indigo-500">
+                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120  px-4 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
                         Job Title
                       </th>
-                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 px-4 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
+                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 pl-7 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
                         Location
                       </th>
-                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 px-4 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
+                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 pr-5 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
                         Applicants
                       </th>
-                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 px-4 py-3 text-left text-[#141414] w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 pl-14 py-3 text-left text-[#141414] w-60 text-sm font-medium leading-normal">Status</th>
                       <th class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 px-4 py-3 text-left text-[#141414] w-[400px] text-sm font-medium leading-normal">
                         Deadline
                       </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr class="border-t border-t-[#DBE1E6]">
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        Math Teacher (Grades 6-8)
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        New York, NY
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">30</td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
-                        <button
-                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
-                        >
-                          <span class="truncate">Open</span>
-                        </button>
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
-                        2 days left
-                      </td>
-                    </tr>
-                    <tr class="border-t border-t-[#DBE1E6]">
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        Science Teacher (Grades 9-12)
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        Los Angeles, CA
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">15</td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
-                        <button
-                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
-                        >
-                          <span class="truncate">Open</span>
-                        </button>
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
-                        3 days left
-                      </td>
-                    </tr>
-                    <tr class="border-t border-t-[#DBE1E6]">
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        English Teacher (Grades 6-8)
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
-                        Chicago, IL
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">20</td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
-                        <button
-                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
-                        >
-                          <span class="truncate">Past</span>
-                        </button>
-                      </td>
-                      <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
-                        Nov 10, 2023
-                      </td>
-                    </tr>
-                  </tbody>
+                  
+                    <tbody>
+                            <tr class="border-t border-t-[#DBE1E6] mt-20">
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Math Teacher (Grades 6-8)
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                New York, NY
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">30</td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                <span class="truncate">Open</span>
+                                </button>
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                2 days left
+                            </td>
+                            </tr>
+                            <tr class="border-t border-t-[#DBE1E6]">
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Science Teacher (Grades 9-12)
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Los Angeles, CA
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">15</td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                <span class="truncate">Open</span>
+                                </button>
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                3 days left
+                            </td>
+                            </tr>
+                            <tr class="border-t border-t-[#DBE1E6]">
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                English Teacher (Grades 6-8)
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Chicago, IL
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">20</td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                <span class="truncate">Past</span>
+                                </button>
+                            </td>
+                            <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                Nov 10, 2023
+                            </td>
+                            </tr>
+                            <tr class="border-t border-t-[#DBE1E6]">
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Math Teacher (Grades 6-8)
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                New York, NY
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">30</td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                    <span class="truncate">Open</span>
+                                </button>
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                2 days left
+                                </td>
+                            </tr>
+                            <tr class="border-t border-t-[#DBE1E6]">
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Science Teacher (Grades 9-12)
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Los Angeles, CA
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">15</td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                    <span class="truncate">Open</span>
+                                </button>
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                3 days left
+                                </td>
+                            </tr>
+                            <tr class="border-t border-t-[#DBE1E6]">
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                English Teacher (Grades 6-8)
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-240 h-[72px] px-4 py-2 w-[400px] text-[#141414] text-sm font-normal leading-normal">
+                                Chicago, IL
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">20</td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#F0F2F5] text-[#141414] text-sm font-medium leading-normal w-full"
+                                >
+                                    <span class="truncate">Past</span>
+                                </button>
+                                </td>
+                                <td class="table-cdba36de-53c7-4f6e-b5b1-3028fe49cd3d-column-600 h-[72px] px-4 py-2 w-[400px] text-[#3E4D5B] text-sm font-normal leading-normal">
+                                Nov 10, 2023
+                                </td>
+                            </tr>
+                    </tbody>
+               
                 </table>
               </div>
               <style>
