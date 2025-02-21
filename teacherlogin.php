@@ -1,3 +1,7 @@
+<?php
+include 'api/connection.php';
+?>
+
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -46,6 +50,7 @@
         </div>
       </header>
 
+    <form action="./api/login.php" method="POST">
       <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
         <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
           <div class="flex justify-center">
@@ -59,28 +64,28 @@
           <div class="flex flex-col gap-4 mt-6">
             <label class="flex flex-col">
               <span class="text-[#1C1D22] text-base font-medium py-2">Email</span>
-              <input type="email" placeholder="Enter your email"
+              <input type="email" name="email" placeholder="Enter your email"
                 class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
             </label>
       
             <label class="flex flex-col">
               <span class="text-[#1C1D22] text-base font-medium py-2">Password</span>
-              <input type="password" placeholder="Enter your password"
+              <input type="password" name="password" placeholder="Enter your password"
                 class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
             </label>
           </div>
       
           <a href="forgotPassTeacher.html" class="text-right text-sm text-red-500 underline mt-2">Forgot your password?</a>
       
-          <button class="w-full h-12 mt-4 bg-[#607AFB] text-white rounded-lg font-bold tracking-wide">
-            Log in
-          </button>
+          <input type="submit" value="Login" class="cursor-pointer w-full h-12 mt-4 bg-[#607AFB] text-white rounded-lg font-bold tracking-wide" />
+           
       
           <p class="text-center text-sm text-[#3C3F4A] mt-4">
             I'm not a teacher yet? <a href="teachersignup.html" class="underline text-[#607AFB] cursor-pointer">Sign up</a>
           </p>
         </div>
       </div>
+    </form>
       
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/5197b4b13e.js" crossorigin="anonymous"></script>
