@@ -13,22 +13,20 @@
         <h2 class="text-2xl font-bold text-center">Advanced ATS Resume Builder</h2>
         <p class="text-center text-gray-600 mb-4">Create your resume and download it in PDF format for free</p>
         
-        <form id="resumeForm">
+        <form id="resumeForm" action="/api/resume.php" method="POST" enctype="multipart/form-data">
             <div class="grid grid-cols-1 gap-4">
-                <input type="text" placeholder="Full Name" class="p-2 border rounded w-full">
-                <input type="email" placeholder="Email" class="p-2 border rounded w-full">
-                <input type="tel" placeholder="Phone Number" class="p-2 border rounded w-full">
-                <input type="number" placeholder="Age" class="p-2 border rounded w-full">
-                <input type="text" placeholder="Address" class="p-2 border rounded w-full">
-                <textarea placeholder="Professional Summary" class="p-2 border rounded w-full"></textarea>
-                <input type="text" placeholder="Field of Study" class="p-2 border rounded w-full">
-                <textarea placeholder="Teaching Certifications" class="p-2 border rounded w-full"></textarea>
-                <input type="file" class="p-2 border rounded w-full">
-                <textarea placeholder="Relevant Coursework/Development" class="p-2 border rounded w-full"></textarea>
-                <textarea placeholder="Leadership/Mentorship Experience" class="p-2 border rounded w-full"></textarea>
-                <textarea placeholder="Subject(s) Area Expertise" class="p-2 border rounded w-full"></textarea>
-                <textarea placeholder="Relevant Skills" class="p-2 border rounded w-full"></textarea>
-                <input type="file" class="p-2 border rounded w-full">
+                <input type="text" id="name" name="name" placeholder="Full Name" class="p-2 border rounded w-full">
+                <input type="email" id="email" name="email" placeholder="Email" class="p-2 border rounded w-full">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" class="p-2 border rounded w-full">
+                <input type="number" id="age" name="age" placeholder="Age" class="p-2 border rounded w-full">
+                <input type="text" id="address" name="address" placeholder="Address" class="p-2 border rounded w-full">
+                <textarea placeholder="Professional Summary" id="summary" name="summary" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Teaching Certifications" id="certificate" name="certificate" class="p-2 border rounded w-full"></textarea>
+                <input type="number" id="exp" name="exp" placeholder="Number of years of teaching experience" class="p-2 border rounded w-full">
+                <textarea placeholder="Relevant Coursework/Development" id="coursedev" name="coursedev" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Leadership/Mentorship Experience (if applicable)" id="leader" name="leader" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Subject(s)/Area Expertise" id="subject" name="subject" class="p-2 border rounded w-full"></textarea>
+                <textarea placeholder="Relevant Skills" id="skills" name="skills" class="p-2 border rounded w-full"></textarea>
                 <select class="p-2 border rounded w-full">
                     <option>Experience Level</option>
                 </select>
@@ -47,7 +45,7 @@
             </div>
             <button type="button" onclick="addEducation()" class="bg-blue-500 text-white p-2 rounded w-full mt-2">Add Education</button>
             
-            <button type="submit" class="bg-green-500 text-white p-3 rounded w-full mt-4">Create Resume</button>
+            <button type="submit" name="registerbtn" class="bg-green-500 text-white p-3 rounded w-full mt-4">Create Resume</button>
         </form>
     </div>
 
@@ -61,7 +59,7 @@
                 <input type="text" placeholder="Company" class="p-2 border rounded w-full mb-2">
                 <input type="text" placeholder="Role" class="p-2 border rounded w-full mb-2">
                 <input type="text" placeholder="Years Worked" class="p-2 border rounded w-full">
-                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Remove</button>
+                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Delete</button>
             `;
             section.appendChild(div);
         }
@@ -75,7 +73,7 @@
                 <input type="text" placeholder="Degree" class="p-2 border rounded w-full mb-2">
                 <input type="text" placeholder="Major" class="p-2 border rounded w-full mb-2">
                 <input type="text" placeholder="Graduation Date" class="p-2 border rounded w-full">
-                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Remove</button>
+                <button type="button" onclick="this.parentElement.remove()" class="bg-red-500 text-white p-1 rounded mt-2">Delete</button>
             `;
             section.appendChild(div);
         }

@@ -1,7 +1,7 @@
 <?php
 include("connection.php");
 
-require('/Applications/XAMPP/xamppfiles/htdocs/ATS/fpdf/fpdf.php');
+require('/Teachers-cabal/fpdf/fpdf.php');
 
 
 // $profilepic = '';

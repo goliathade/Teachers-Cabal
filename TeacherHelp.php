@@ -1,3 +1,14 @@
+<?php 
+session_start();
+
+$connect = mysqli_connect("localhost", "root", "","ats_db");
+//session_start();
+if(!isset($_SESSION['id'])){
+    header("location: ../teacherInterviews.php");
+}
+$data = $_SESSION['data'];
+?>
+
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -83,7 +94,7 @@
                     style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d465b2a6-add4-4b60-967f-6e05049ba81a.png");'
                   ></div>
                   <div class="flex flex-col ">
-                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">D. Kargaev</h1>
+                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">Hi, <?php echo $data['name'];?></h1>
                     <p class="text-[#798189] text-sm font-normal leading-normal">San Francisco, CA</p>
                   </div>
                 </div>
