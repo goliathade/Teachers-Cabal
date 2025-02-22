@@ -1,3 +1,14 @@
+<?php 
+session_start();
+
+$connect = mysqli_connect("localhost", "root", "","ats_db");
+//session_start();
+if(!isset($_SESSION['id'])){
+    header("location: ../teacherApplications.php");
+}
+$data = $_SESSION['data'];
+?>
+
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -66,7 +77,7 @@
             </div>
             <div class="flex gap-2">
               
-              <a href="teachersdashboard.html" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/751b53c7-4176-4f58-a0fc-39dd1e0e0293.png");'></a href="teachersdashboard.html">
+              <a href="teachersdashboard.php" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/751b53c7-4176-4f58-a0fc-39dd1e0e0293.png");'></a href="teachersdashboard.php">
           
             </div>
           </div>
@@ -80,47 +91,47 @@
               <div class="flex flex-col gap-4">
                 <a href="" class="flex gap-3">
                   <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f7d506b1-4e91-42eb-870d-c7099aaf0a79.png");'
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d465b2a6-add4-4b60-967f-6e05049ba81a.png");'
                   ></div>
                   <div class="flex flex-col">
-                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">D. Kargaev</h1>
+                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">Hi, <?php echo $data['name'];?></h1>
                     <p class="text-[#A18249] text-sm font-normal leading-normal">San Francisco, CA</p>
                   </div>
                 </a>
 
                 <div class="flex flex-col gap-2">
-                  <a href="teachersdashboard.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="teachersdashboard.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Gauge" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-chart-simple"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Dashboard</p>
                   </a>
-                  <a href="teachersSchools.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="teachersSchools.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Chalkboard" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-school"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Schools</p>
                   </a>
-                  <a href="teacherApplications.html" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#F4EFE6] hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="teacherApplications.php" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#F4EFE6] hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="AppWindow" data-size="24px" data-weight="fill">
                       <i class="fa-solid fa-file-pen"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Applications</p>
                   </a>
-                  <a href="teacherInterviews.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="teacherInterviews.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="ApplePodcastsLogo" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-video"></i>
                       </svg>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Interviews</p>
                   </a>
-                  <a href="TeacherOffers.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="TeacherOffers.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Power" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-briefcase"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Offers</p>
                   </a>
-                  <a href="TeacherHelp.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="TeacherHelp.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Info" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-circle-info"></i>
                     </div>
@@ -131,12 +142,12 @@
               </div>
 
               <div class="flex flex-col gap-1">
-                <div class="flex items-center gap-3 px-3 py-2 cursor-pointer">
+                <a href="Teacherlogout.php" class="flex items-center gap-3 px-3 py-2 cursor-pointer">
                   <div class="text-[#1C160C]" data-icon="SignOut" data-size="24px" data-weight="regular">
                     <i class="fa-solid fa-right-from-bracket"></i>
                   </div>
                   <p class="text-[#1C160C] text-sm font-medium leading-normal">Logout</p>
-                </div>
+                </a>
               </div>
             </div>
           </div>

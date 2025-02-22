@@ -25,7 +25,7 @@
     else{
         echo '<script>
                 alert("Invalid credentials!");
-                window.location = "../";
+                window.location = "../teacherlogin.php";
             </script>';
     }
     

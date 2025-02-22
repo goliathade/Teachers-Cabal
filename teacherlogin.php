@@ -50,7 +50,7 @@ include 'api/connection.php';
         </div>
       </header>
 
-    <form action="./api/login.php" method="POST">
+    <form action="api/login.php" method="POST">
       <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
         <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
           <div class="flex justify-center">
