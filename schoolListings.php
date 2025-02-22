@@ -33,7 +33,7 @@ $data = $_SESSION['data'];
     <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
         
-        <header class=" flex fixed w-full top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
+        <header class="drop-shadow-sm  flex fixed w-full top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
           <div class="flex items-center gap-4 text-[#1C1D22]">
             <a href="index.html"><img src="image/teacherscaballogo.png" width="100px" alt="" srcset=""></a>
           </div>
