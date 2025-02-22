@@ -18,6 +18,60 @@
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
+  <style>
+    @keyframes fade-in-top {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Slightly above */
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    .animate-fade-in-top {
+      animation: fade-in-top 0.8s ease-out forwards;
+    }
+    @keyframes fade-in-top2 {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Slightly above */
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    .animate-fade-in-top2 {
+      animation: fade-in-top 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeBounce {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    70% {
+      transform: translateY(-10px);
+    }
+    90% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+    .fade-bounce {
+      animation: fadeBounce 2s ease forwards;
+    }
+  </style>
+
   <body>
     <div class="relative flex size-full min-h-screen flex-col bg-[#F9FAFA] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
@@ -27,21 +81,21 @@
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
-              <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="teacherlogin.html">Find a Job</a>
-              <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="schoollogin.html">Post a Job</a>
-              <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="resources.html">Resources</a>
-              <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="about.html">About</a>
+              <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="teacherlogin.php">Find a Job</a>
+              <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="schoollogin.php">Post a Job</a>
+              <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="resources.html">Resources</a>
+              <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="about.html">About</a>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-2 ">
               <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em]"
+                class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:bg-blue-500 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em]"
               >
                 <a href="teacherlogin.php" class="truncate">Log In</a>
               </button>
               <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#EEEFF2] text-[#1C1D22] text-sm font-bold leading-normal tracking-[0.015em]"
+                class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-200 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#EEEFF2] text-[#1C1D22] text-sm font-bold leading-normal tracking-[0.015em]"
               >
-                <a href="teachersignup.html" class="truncate">Sign Up</a>
+                <a href="teachersignup.php" class="truncate">Sign Up</a>
               </input>
             </div>
           </div>
@@ -86,7 +140,7 @@
                       />
                       <div class="flex items-center justify-center rounded-r-xl border-l-0 border border-[#D5D6DD] bg-[#FFFFFF] pr-[7px]">
                         <button
-                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em] 
+                          class="transition delay-150 duration-300 hover:bg-blue-500 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#558ca1] text-[#F9FAFA] text-sm font-bold leading-normal tracking-[0.015em] 
                           @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
                           <span class="truncate">Search</span>
                         </button>
@@ -97,70 +151,72 @@
               </div>
             </div>
 
+          <div class="opacity-0 animate-fade-in-top">
             <h2 class="text-[#1C1D22] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">How we can help you</h2>
             <p class="text-[#1C1D22] text-base font-normal leading-normal pb-3 pt-1 px-4">
               Teachers Cabal is an online recruitment platform that leverages the latest technology to connect teachers with top schools and school districts. Our Application
               Tracking System (ATS) makes the job search and application process seamless and efficient.
             </p>
+          </div>
+
+          <div class="opacity-0 animate-fade-in-top2">
             <h2 class="text-[#1C1D22] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Why Teachers Cabal?</h2>
             <p class="text-[#1C1D22] text-base font-normal leading-normal pb-3 pt-1 px-4">
               Teachers Cabal is more than just a job board; it's an online recruitment platform designed specifically for educators. Our mission is to make the job search and
               application process as seamless and efficient as possible for teachers and schools.
             </p>
-            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-              <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col">
-                <div class="text-[#1C1D22]" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                    <path
-                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
-                    ></path>
-                  </svg>
-                </div>
-                <div class="flex flex-col gap-1">
-                  <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Effortless job matching</h2>
-                  <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Let our ATS do the heavy lifting.</p>
-                </div>
+          </div>
+
+          <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+            <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col fade-bounce cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-4" style="animation-delay: 0s;">
+              <div class="text-[#1C1D22]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
               </div>
-              <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col">
-                <div class="text-[#1C1D22]" data-icon="Student" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                    <path
-                      d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"
-                    ></path>
-                  </svg>
-                </div>
-                <div class="flex flex-col gap-1">
-                  <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Benefits for teachers</h2>
-                  <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Find your next role with ease.</p>
-                </div>
-              </div>
-              <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col">
-                <div class="text-[#1C1D22]" data-icon="Student" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                    <path
-                      d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"
-                    ></path>
-                  </svg>
-                </div>
-                <div class="flex flex-col gap-1">
-                  <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Benefits for schools</h2>
-                  <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Access the best candidates.</p>
-                </div>
-              </div>
-              <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col">
-                <div class="text-[#1C1D22]" data-icon="DevToLogo" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                    <path
-                      d="M232,56H24A16,16,0,0,0,8,72V184a16,16,0,0,0,16,16H232a16,16,0,0,0,16-16V72A16,16,0,0,0,232,56Zm0,128H24V72H232V184ZM128,104v16h8a8,8,0,0,1,0,16h-8v16h16a8,8,0,0,1,0,16H120a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16Zm87.7-5.83-18,64a8,8,0,0,1-15.4,0l-18-64a8,8,0,0,1,15.4-4.34L190,130.45l10.3-36.62a8,8,0,1,1,15.4,4.34ZM64,88H56a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h8a32,32,0,0,0,32-32V120A32,32,0,0,0,64,88Zm16,48a16,16,0,0,1-16,16V104a16,16,0,0,1,16,16Z"
-                    ></path>
-                  </svg>
-                </div>
-                <div class="flex flex-col gap-1">
-                  <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Professional development</h2>
-                  <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Grow your skills and knowledge.</p>
-                </div>
+              <div class="flex flex-col gap-1">
+                <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Effortless job matching</h2>
+                <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Let our ATS do the heavy lifting.</p>
               </div>
             </div>
+          
+            <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col fade-bounce" style="animation-delay: 0.3s;">
+              <div class="text-[#1C1D22]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"></path>
+                </svg>
+              </div>
+              <div class="flex flex-col gap-1">
+                <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Benefits for teachers</h2>
+                <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Find your next role with ease.</p>
+              </div>
+            </div>
+          
+            <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col fade-bounce" style="animation-delay: 0.6s;">
+              <div class="text-[#1C1D22]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"></path>
+                </svg>
+              </div>
+              <div class="flex flex-col gap-1">
+                <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Benefits for schools</h2>
+                <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Access the best candidates.</p>
+              </div>
+            </div>
+          
+            <div class="flex flex-1 gap-3 rounded-lg border border-[#D5D6DD] bg-[#FFFFFF] p-4 flex-col fade-bounce" style="animation-delay: 0.9s;">
+              <div class="text-[#1C1D22]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M232,56H24A16,16,0,0,0,8,72V184a16,16,0,0,0,16,16H232a16,16,0,0,0,16-16V72A16,16,0,0,0,232,56Zm0,128H24V72H232V184ZM128,104v16h8a8,8,0,0,1,0,16h-8v16h16a8,8,0,0,1,0,16H120a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16Zm87.7-5.83-18,64a8,8,0,0,1-15.4,0l-18-64a8,8,0,0,1,15.4-4.34L190,130.45l10.3-36.62a8,8,0,1,1,15.4,4.34ZM64,88H56a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h8a32,32,0,0,0,32-32V120A32,32,0,0,0,64,88Zm16,48a16,16,0,0,1-16,16V104a16,16,0,0,1,16,16Z"></path>
+                </svg>
+              </div>
+              <div class="flex flex-col gap-1">
+                <h2 class="text-[#1C1D22] text-base font-bold leading-tight">Professional development</h2>
+                <p class="text-[#3C3F4A] text-sm font-normal leading-normal">Grow your skills and knowledge.</p>
+              </div>
+            </div>
+          </div>
+
             <br>
             <h2 class="text-[#1C1D22] text-5xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 text-center font-extrabold">Find your next role</h2>
             <br>
@@ -169,7 +225,7 @@
             </p>
             <div class="flex px-4 py-3 justify-center">
               <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#558ca1] text-[#F9FAFA] text-base font-bold leading-normal tracking-[0.015em]"
+                class=" transition delay-150 duration-300 hover:bg-blue-500 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#558ca1] text-[#F9FAFA] text-base font-bold leading-normal tracking-[0.015em]"
               >
                 <span class="truncate">Find a Job</span>
               </button>
@@ -214,7 +270,7 @@
                   </div>
                 </a>
               </div>
-              <p class="text-[#3C3F4A] text-base font-normal leading-normal">© 2025 Teachers Cabal</p>
+              <p class="text-[#3C3F4A] text-base font-normal leading-normal"> &#169; 2025 Teachers Cabal</p>
             </footer>
           </div>
         </footer>

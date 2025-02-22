@@ -30,10 +30,10 @@ include 'api/connection.php';
         </div>
         <div class="flex flex-1 justify-end gap-8">
           <div class="flex items-center gap-9">
-            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="teacherlogin.html">Find a Job</a>
-            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="schoollogin.html">Post a Job</a>
-            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="resources.html">Resources</a>
-            <a class="text-[#1C1D22] text-sm font-medium leading-normal" href="about.html">About</a>
+            <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="teacherlogin.php">Find a Job</a>
+            <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="schoollogin.php">Post a Job</a>
+            <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="resources.html">Resources</a>
+            <a class="transition delay-150 duration-300 hover:text-black hover:font-black text-sm font-medium leading-normal" href="about.html">About</a>
           </div>
           <div class="flex gap-2">
             <button
@@ -50,7 +50,7 @@ include 'api/connection.php';
         </div>
       </header>
 
-    <form action="api/login.php" method="POST">
+    <form action="api/login.php" method="POST" enctype="multipart/form-data">
       <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
         <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
           <div class="flex justify-center">
@@ -81,7 +81,7 @@ include 'api/connection.php';
            
       
           <p class="text-center text-sm text-[#3C3F4A] mt-4">
-            I'm not a teacher yet? <a href="teachersignup.html" class="underline text-[#607AFB] cursor-pointer">Sign up</a>
+            I'm not a teacher yet? <a href="teachersignup.php" class="underline text-[#607AFB] cursor-pointer">Sign up</a>
           </p>
         </div>
       </div>

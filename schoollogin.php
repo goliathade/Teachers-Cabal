@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class=" flex fixed w-full top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
+      <header class=" flex fixed w-full top-0 bg-white z-10 items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-10 py-3">
         <div class="flex items-center gap-4 text-[#1C1D22]">
           <a href="index.html"><img src="image/teacherscaballogo.png" width="100px" alt="" srcset=""></a>
         </div>
@@ -46,41 +46,43 @@
         </div>
       </header>
 
-      <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
-        <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
-          <div class="flex justify-center">
-            <img src="image/teacherscaballogo.png" alt="Teachers Cabal Logo" class="w-20" />
+      <form action="api/school_login.php" method="post">
+        <div class="relative flex items-center justify-center min-h-screen bg-[#F9FAFA] overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+          <div class="flex flex-col w-full max-w-[512px] p-5 bg-white rounded-xl shadow-lg">
+            <div class="flex justify-center">
+              <img src="image/teacherscaballogo.png" alt="Teachers Cabal Logo" class="w-20" />
+            </div>
+            <div class="text-center mt-4">
+              <p class="text-[#1C1D22] text-[32px] font-bold">School Login</p>
+              <p class="text-[#3C3F4A] text-sm">Login to your account</p>
+            </div>
+        
+            <div class="flex flex-col gap-4 mt-6">
+              <label class="flex flex-col">
+                <span class="text-[#1C1D22] text-base font-medium py-2">Email</span>
+                <input name="email" id="email" type="email" placeholder="Enter your email"
+                  class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
+              </label>
+        
+              <label class="flex flex-col">
+                <span class="text-[#1C1D22] text-base font-medium py-2">Password</span>
+                <input  name="password" id="password" type="password" placeholder="Enter your password"
+                  class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
+              </label>
+            </div>
+        
+            <a href="forgotPassTeacher.html" class="text-right text-sm text-red-500 underline mt-2">Forgot your password?</a>
+        
+            <button type="submit" id="login_btn" class="w-full h-12 mt-4 bg-[#607AFB] text-white rounded-lg font-bold tracking-wide">
+              Log in
+            </button>
+        
+            <p class="text-center text-sm text-[#3C3F4A] mt-4">
+              School not registered yet? <a href="schoolsignup.php" class="underline text-[#607AFB] cursor-pointer">Sign up</a>
+            </p>
           </div>
-          <div class="text-center mt-4">
-            <p class="text-[#1C1D22] text-[32px] font-bold">Recover your Password</p>
-            <p class="text-[#3C3F4A] text-sm">Setup a new password</p>
-          </div>
-      
-          <div class="flex flex-col gap-4 mt-6">
-            <label class="flex flex-col">
-              <span class="text-[#1C1D22] text-base font-medium py-2">Email</span>
-              <input type="email" placeholder="Enter your email"
-                class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
-            </label>
-      
-            <label class="flex flex-col">
-              <span class="text-[#1C1D22] text-base font-medium py-2">Password</span>
-              <input type="password" placeholder="New password"
-                class="form-input w-full h-14 rounded-xl border border-[#D5D6DD] p-3 text-base focus:outline-none focus:border-[#607AFB]" />
-            </label>
-          </div>
-      
-          <a href="forgotPassTeacher.html" class="text-right text-sm text-red-500 underline mt-2">Forgot your password?</a>
-      
-          <button class="w-full h-12 mt-4 bg-[#607AFB] text-white rounded-lg font-bold tracking-wide">
-            Log in
-          </button>
-      
-          <p class="text-center text-sm text-[#3C3F4A] mt-4">
-            School not registered yet? <a href="schoolsignup.php" class="underline text-[#607AFB] cursor-pointer">Sign up</a>
-          </p>
         </div>
-      </div>
+      </form>
       
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/5197b4b13e.js" crossorigin="anonymous"></script>

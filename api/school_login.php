@@ -19,13 +19,13 @@
         $_SESSION['status'] = $data['status'];
         $_SESSION['data'] = $data;
         echo '<script>
-                window.location = "../routes/school/dashboard.php";
+                window.location = "../schooldashboard.php";
             </script>';
     }
     else{
         echo '<script>
                 alert("Invalid credentials!");
-                window.location = "../";
+                window.location = "../schoollogin.php";
             </script>';
     }
     

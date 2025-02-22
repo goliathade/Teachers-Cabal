@@ -142,7 +142,7 @@ $data = $_SESSION['data'];
               </div>
 
               <div class="flex flex-col gap-1">
-                <a href="Teacherlogout.php" class="flex items-center gap-3 px-3 py-2 cursor-pointer">
+                <a href="logout.php" class="flex items-center gap-3 px-3 py-2 cursor-pointer">
                   <div class="text-[#1C160C]" data-icon="SignOut" data-size="24px" data-weight="regular">
                     <i class="fa-solid fa-right-from-bracket"></i>
                   </div>

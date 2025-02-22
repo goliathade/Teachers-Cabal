@@ -1,3 +1,14 @@
+<?php 
+session_start();
+
+$connect = mysqli_connect("localhost", "root", "","ats_db");
+//session_start();
+if(!isset($_SESSION['id'])){
+    header("location: ../schoolListings.php");
+}
+$data = $_SESSION['data'];
+?>
+
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -65,14 +76,14 @@
               </div>
             </div>
             <div class="flex gap-2">
-              <a href="schooldashboard.html" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/002997df-a562-40c5-aec4-f0394b79f427.png");'></a href="teachersdashboard.php">
+              <a href="schooldashboard.php" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/002997df-a562-40c5-aec4-f0394b79f427.png");'></a href="teachersdashboard.php">
           
             </div>
           </div>
         </header>
 
-        <div class="gap-1 px-6 flex flex-1 mt-20 justify-center py-5">
-          <div class="layout-content-container flex flex-col w-80">
+        <div class="gap-1 px-5 flex flex-1 mt-20 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-50 mr-20">
             <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#FFFFFF] py-4">
               <div class="flex flex-col gap-4 mr-4">
                 <div class="flex gap-3">
@@ -81,30 +92,30 @@
                     style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0cfc41ee-3903-4348-b7c3-04e49369bbc8.png");'
                   ></div>
                   <div>
-                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">Oakland Unified School District</h1>
+                    <h1 class="text-[#1C160C] text-base font-medium leading-normal max-w-40">Welcome, <?php echo $data['name'];?></h1>
                     <p class="text-[#3E4D5B] text-sm font-normal leading-normal">Manage your school</p>
                   </div>
                 </div>
                 <div class="flex flex-col gap-2">
-                  <a href="schooldashboard.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="schooldashboard.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Gauge" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-chart-simple"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Dashboard</p>
                   </a>
-                  <a href="schoolListings.html" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#F4EFE6] hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="schoolListings.php" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#F4EFE6] hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="Chalkboard" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-list"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Listings</p>
                   </a>
-                  <a href="schoolApplicants.html" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="schoolApplicants.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="AppWindow" data-size="24px" data-weight="fill">
                       <i class="fa-solid fa-people-group"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Applicants</p>
                   </a>
-                  <a href="teacherInterviews.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
+                  <a href="schoolHires.php" class="flex items-center gap-3 px-3 py-2 hover:rounded-lg hover:bg-[#F4EFE6] transition delay-150 duration-300">
                     <div class="text-[#1C160C]" data-icon="ApplePodcastsLogo" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-handshake"></i>
                       </svg>
@@ -121,12 +132,12 @@
                   <span class="truncate">New School</span>
                 </button>
                 <div class="flex flex-col gap-1">
-                  <div class="flex items-center gap-3 px-3 py-2 cursor-pointer">
+                  <a href="logout.php" class="flex items-center gap-3 px-3 py-2 cursor-pointer">
                     <div class="text-[#1C160C]" data-icon="SignOut" data-size="24px" data-weight="regular">
                       <i class="fa-solid fa-right-from-bracket"></i>
                     </div>
                     <p class="text-[#1C160C] text-sm font-medium leading-normal">Logout</p>
-                  </div>
+                  </a>
                 </div>
 
               </div>
@@ -185,25 +196,25 @@
             <div class="flex px-4 py-3">
               <div class="flex h-10 flex-1 items-center justify-center rounded-full bg-[#F0F2F5] p-1">
                 <label
-                  class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
+                  class="transition-all delay-100 duration-300 ease-in-out flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
                 >
                   <span class="truncate">All</span>
                   <input type="radio" name="aecd0d70-5647-4449-998b-ec88e6b8b20d" class="invisible w-0" value="All" checked="" />
                 </label>
                 <label
-                  class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
+                  class="transition-all delay-100 duration-300 ease-in-out flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
                 >
                   <span class="truncate">Open</span>
                   <input type="radio" name="aecd0d70-5647-4449-998b-ec88e6b8b20d" class="invisible w-0" value="Open" />
                 </label>
                 <label
-                  class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
+                  class="transition-all delay-100 duration-300 ease-in-out flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
                 >
                   <span class="truncate">Future</span>
                   <input type="radio" name="aecd0d70-5647-4449-998b-ec88e6b8b20d" class="invisible w-0" value="Future" />
                 </label>
                 <label
-                  class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
+                  class="transition-all delay-100 duration-300 ease-in-out flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-full px-2 has-[:checked]:bg-[#FFFFFF] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#141414] text-[#3E4D5B] text-sm font-medium leading-normal"
                 >
                   <span class="truncate">Past</span>
                   <input type="radio" name="aecd0d70-5647-4449-998b-ec88e6b8b20d" class="invisible w-0" value="Past" />

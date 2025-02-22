@@ -6,18 +6,18 @@
     $phone = $_POST['phone'];
     $pass = $_POST['password'];
     $cpass = $_POST['cpass'];
-    $des = $_POST['description'];
+    // $des = $_POST['description'];
     $add = $_POST['address'];
     // $age = $_POST['age'];
-    $image = $_FILES['image']['name'];
-    $tmp_name = $_FILES['image']['tmp_name'];
+    // $image = $_FILES['image']['name'];
+    // $tmp_name = $_FILES['image']['tmp_name'];
     // $role = $_POST['role'];
     
 
     if($pass!=$cpass){
         echo '<script>
                 alert("Passwords do not match!");
-                window.location = "schoolreg.php";
+                window.location = "../schoolsignup.php";
             </script>';
     }
     // if($role= '2')
@@ -27,7 +27,7 @@
         if($insert){
             echo '<script>
                     alert("Registration successful!");
-                    window.location = "./routes/school/dashboard.php";
+                    window.location = "../schoollogin.php";
                 </script>';
         }
     }
